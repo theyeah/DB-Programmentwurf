@@ -1,0 +1,679 @@
+ID;Name;Rarity;Element;Cost;Type;Subtype;Quick;Health;Abilities
+#Generated 01.03.2023 11:00:32;;;;;;;;;
+M3E1101;Chewbellie;Forbidden;Light;5{l};Troop;Bellie;;10;When this enters the battlegrounds, you create a random Treat from the Special set in your hand.
+M3E1102;Lintbellie;Forbidden;Light;5{l};Troop;Bellie;;10;When this enters the battlegrounds, you draw a card from the bottom of your deck.|When this is destroyed, you draw a card from the bottom of your opponent's deck.
+M3E1110;Boobellie;Forbidden;Darkness;5{d};Troop;Bellie;;10;
+M3E1111;Dracubellie;Forbidden;Darkness;5{d};Troop;Bellie;;10;When this enters the battlegrounds, deal five damage to the opposite troop. This gains +1{h} for each  damage dealt.
+M3E1112;Screwbellie;Forbidden;Darkness;10{d};Troop;Bellie;;20;You gain double charge.
+M3E1151;Plumebellie;Forbidden;Air;5{a};Troop;Bellie;;10;When this enters the battlegrounds, reverse gravity.
+M3E1152;Seethroughbellie;Forbidden;Air;10{a};Troop;Bellie;;20;Whenever this is damaged, a random allied troop is damaged instead.
+M3E1161;Moobellie;Forbidden;Earth;5{e};Troop;Bellie;;10;Whenever this is damaged, double the bonus of this.
+M3E1162;Goobellie;Forbidden;Earth;10{e};Troop;Bellie;;15;Whenever a card is played by anyone, this gains +5{h}.
+M3E1171;Belliadhis;Secret;Rainbow;20{r};Troop;Bellie;True;10;Increases Boobellie's AI level.|
+M3E1172;Mewbellie;Forbidden;Rainbow;25{r};Troop;Bellie;True;10;When this enters the battlegrounds, you create a random Trick from the Special set in your hand.
+M3E1173;Shoebellie;Forbidden;Rainbow;30{r};Troop;Bellie;True;15;When this enters the battlegrounds, you create a random Shoe from the Special set in your hand.
+M3E1180;Trick or Treat;Forbidden;Darkness;10{r};Action;None;True;;You create a random Trick from the Special set in your hand. You create a random Treat from the Special set in your hand.
+M3E1181;Twobellie;Forbidden;Earth;10{r};Action;Trick;True;;You draw two Bellies.
+M3E1182;Jumpscare;Forbidden;Air;0{r};Action;Trick;True;;Return a random enemy troop to its owner's hand.
+M3E1183;Bone-chilling Tale;Forbidden;Water;20{r};Action;Trick;True;;The {h} of all enemy troops becomes one.
+M3E1184;Back from Bellyond;Forbidden;Darkness;0{r};Action;Trick;True;;You draw a Bellie from the bottom of your deck.
+M3E1191;Candy Corn;Forbidden;Light;0{r};Action;Treat;True;;Heal 5 {h} from chosen allied Bellie.
+M3E1192;Pumpkin Pie;Forbidden;Earth;10{r};Action;Treat;True;;Chosen allied Bellie gains +10{h}.
+M3E1193;Bubbleyegum;Forbidden;Rainbow;5{r};Action;Treat;True;;You draw a card for each allied Bellie.
+M3E1194;Stacked Pancake;Forbidden;Fire;5{r};Action;Treat;True;;Double the bonus of chosen allied Bellie.
+M3E1196;Fancy Shoes;Forbidden;Fire;5{r};Action;Shoe;True;;Remove the bonus from chosen enemy troop.
+M3E1197;Well-worn Sandals;Forbidden;Earth;0{r};Action;Shoe;True;;Heal 3 {h} from chosen allied Bellie.
+M3E1198;Winged Boots;Forbidden;Air;0{r};Action;Shoe;True;;Reverse gravity for you.
+M3E1199;Sneaky Sneakers;Forbidden;Fire;0{r};Action;Shoe;True;;For this turn, you can play Bellies in your hand as quick cards.
+M3E1201;Snowsurfer;Forbidden;Light;5{l};Troop;NhubiReg;;10;
+M3E1202;Electra, Starlighter;Forbidden;Darkness;5{d};Troop;Xambr;;10;
+M3E1203;Rathos Firstkiss;Forbidden;Fire;5{f};Troop;Rathos;;10;
+M3E1204;Rubinia of the Sunken Star;Forbidden;Water;5{w};Troop;Merfolk;;10;
+M3E1205;Ianthe, Winter's Herald;Forbidden;Air;5{a};Troop;Skyfolk;;10;
+M3E1206;Sweet Sesser;Forbidden;Earth;5{e};Troop;Burla;;10;
+M3E1207;Jinglebellie;Exceptional;Fire;0{r};Hero;None;;;
+M3E1208;Snoozebellie;Exceptional;Water;0{r};Hero;None;;;
+M3E1209;Eggbellie;Forbidden;Rainbow;10{r};Troop;None;;10;
+M3E1211;Friendly Gift;Common;Light;0{r};Troop;Gift;True;2;When this is destroyed, your opponent creates a random common light card from the Relegatia set in their hand.
+M3E1212;Nostalgic Gift;Common;Darkness;0{r};Troop;Gift;True;2;When this is destroyed, your opponent creates a random common darkness card from the Relegatia set in their hand.
+M3E1213;Warm Gift;Common;Fire;0{r};Troop;Gift;True;2;When this is destroyed, your opponent creates a random common fire card from the Relegatia set in their hand.
+M3E1214;Polite Gift;Common;Water;0{r};Troop;Gift;True;2;When this is destroyed, your opponent creates a random common water card from the Relegatia set in their hand.
+M3E1215;Charming Gift;Common;Air;0{r};Troop;Gift;True;2;When this is destroyed, your opponent creates a random common air card from the Relegatia set in their hand.
+M3E1216;Handy Gift;Common;Earth;0{r};Troop;Gift;True;2;When this is destroyed, your opponent creates a random common earth card from the Relegatia set in their hand.
+M3E1217;Impersonal Gift;Common;Neutral;0{r};Troop;Gift;True;2;When this is destroyed, your opponent creates a random common rainbow card from the Relegatia set in their hand.
+M3E1221;Cordial Gift;Uncommon;Light;0{r};Troop;Gift;True;4;When this is destroyed, your opponent creates a random uncommon light card from the Relegatia set in their hand.
+M3E1222;Sentimental Gift;Uncommon;Darkness;0{r};Troop;Gift;True;4;When this is destroyed, your opponent creates a random uncommon darkness card from the Relegatia set in their hand.
+M3E1223;Affectionate Gift;Uncommon;Fire;0{r};Troop;Gift;True;4;When this is destroyed, your opponent creates a random uncommon fire card from the Relegatia set in their hand.
+M3E1224;Courteous Gift;Uncommon;Water;0{r};Troop;Gift;True;4;When this is destroyed, your opponent creates a random uncommon water card from the Relegatia set in their hand.
+M3E1225;Beautiful Gift;Uncommon;Air;0{r};Troop;Gift;True;4;When this is destroyed, your opponent creates a random uncommon air card from the Relegatia set in their hand.
+M3E1226;Useful Gift;Uncommon;Earth;0{r};Troop;Gift;True;4;When this is destroyed, your opponent creates a random uncommon earth card from the Relegatia set in their hand.
+M3E1227;Cash Gift;Uncommon;Neutral;0{r};Troop;Gift;True;4;When this is destroyed, the enemy hero gains 15 {r}.
+M3E1231;Lovely Gift;Rare;Light;0{r};Troop;Gift;True;6;When this is destroyed, your opponent creates a random rare light card from the Relegatia set in their hand.
+M3E1232;Unique Gift;Rare;Darkness;0{r};Troop;Gift;True;6;When this is destroyed, your opponent creates a random rare darkness card from the Relegatia set in their hand.
+M3E1233;Heartfelt Gift;Rare;Fire;0{r};Troop;Gift;True;6;When this is destroyed, your opponent creates a random rare fire card from the Relegatia set in their hand.
+M3E1234;Thoughtful Gift;Rare;Water;0{r};Troop;Gift;True;6;When this is destroyed, your opponent creates a random rare water card from the Relegatia set in their hand.
+M3E1235;Gorgeous Gift;Rare;Air;0{r};Troop;Gift;True;6;When this is destroyed, your opponent creates a random rare air card from the Relegatia set in their hand.
+M3E1236;Practical Gift;Rare;Earth;0{r};Troop;Gift;True;6;When this is destroyed, your opponent creates a random rare earth card from the Relegatia set in their hand.
+M3E1237;Mystery Gift;Rare;Neutral;0{r};Troop;Gift;True;6;When this is destroyed, your opponent creates a Blubellie in their hand.
+M3E1241;Tome of Strategy;Exceptional;Rainbow;30{r};Action;None;True;;Reduce the cost of cards in your hand by 5.
+M3E1242;Strawberry Cane;Common;Rainbow;3{r};Action;None;True;;Heal 10 {h} from chosen allied troop.
+M3E1243;Peppermint Cane;Common;Rainbow;3{r};Action;None;True;;Double the bonus of chosen allied troop.
+M3E1244;Blubellie Stuffing;Common;Rainbow;3{r};Action;None;True;;Heal 10 {h} from your hero.
+M3E1245;Gingerbellie;Common;Rainbow;3{r};Action;None;True;;Heal 5 {h} from all allied troops.
+M3E1251;Travel Voucher;Exceptional;Light;0{r};Troop;Gift;True;5;When this is destroyed, your opponent creates a random Map from the Relegatia set in their hand.
+M3E1252;Mushroom Sampler;Exceptional;Darkness;0{r};Troop;Gift;True;5;When this is destroyed, your opponent creates a random Mushroom from the Relegatia set in their hand.
+M3E1253;Lootbox;Exceptional;Fire;0{r};Troop;Gift;True;5;When this is destroyed, your opponent creates a random Weapon from the Relegatia set in their hand.
+M3E1254;Booze Bottle;Exceptional;Water;0{r};Troop;Gift;True;5;When this is destroyed, your opponent creates a random Potion from the Relegatia set in their hand.
+M3E1255;Last-Minute Gift;Exceptional;Air;0{r};Troop;Gift;True;5;When this is destroyed, your opponent creates a random quick card from the Relegatia set in their hand.
+M3E1256;Fruit Basket;Exceptional;Earth;0{r};Troop;Gift;True;5;When this is destroyed, your opponent creates a random Fruit from the Relegatia set in their hand.
+M3E1257;Expensive Gift;Exceptional;Neutral;0{r};Troop;Gift;True;5;When this is destroyed, your opponent creates a random exceptional card from the Relegatia set in their hand.
+M3C3;Vantu Spy Form;Rare;Darkness;0{r};Hero;None;;;Whenever a card is played by anyone, you steal a random card  in your opponent's hand.|At the start of your turn, if there are no cards in your opponent's hand, this changes to Vantu Diplomat.
+M3C4;Vantu Diplomat Form;Rare;Water;0{r};Hero;None;;;At the start of your turn, all players draw a card.|At the start of your opponent's turn, if there are at least 2 cards  in your opponent's hand, this changes to Vantu Spy.
+M3C5;Vulder;Exceptional;Water;0{r};Hero;None;;;Countdown 7|Whenever the countdown reaches zero, remove all bonuses and abilities from enemy troops. Reset the countdown.
+M3C6;Akar;Exceptional;Earth;0{r};Hero;None;;;Countdown 7|Whenever the countdown reaches zero, poison all enemy troops for two damage per turn. Reset the countdown.
+M3C7;Perun;Exceptional;Air;0{r};Hero;None;;;Countdown 5|Whenever the countdown reaches zero, reverse the bonus of all enemy troops. Deal three damage to all these troops. Reset the countdown.
+M3C8;Aterioth - Banished in Crystal;Exceptional;Darkness;0{r};Hero;None;;;Countdown 5|Whenever the countdown reaches zero, reset the countdown. This changes to Attack Stance.
+M3C9;Aterioth - Attack Stance;Exceptional;Darkness;0{r};Hero;None;;;Countdown 5|Whenever the countdown reaches zero, reset the countdown. This changes to Defense Stance.|Whenever this is damaged, if this has 100 or less {h}, this changes to Desperate Stance.|0{r}, end your turn: Destroy chosen allied crystal.
+M3C10;Aterioth - Defense Stance;Exceptional;Darkness;0{r};Hero;None;;;Countdown 5|Whenever the countdown reaches zero, reset the countdown. This changes to Attack Stance.|Whenever this is damaged, if this has 100 or less {h}, this changes to Desperate Stance.|This receives half damage.|0{r}, end your turn: Destroy chosen allied crystal.
+M3C11;Aterioth - Desperate Stance;Exceptional;Darkness;0{r};Hero;None;;;At the start of your turn, you draw a card.|0{r}, end your turn: Destroy chosen allied crystal.
+M3C101;Closing Door;Common;Neutral;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, if there are no allied troops, you lose the game.
+M3C102;Treasure Hoard;Common;Neutral;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged, add 50 gold for each  damage dealt to the encounter rewards.
+M3C103;Underground Labyrinth;Common;Darkness;0{r};Hero;None;;;Countdown 12|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged, put all allied troops on the bottom of their owner's deck. Put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field.
+M3C104;Hunting Grounds;Common;Earth;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, create a random Beast from the Relegatia set in a random empty allied field.|Whenever an allied troop is destroyed, add that troop to the encounter rewards.
+M3C105;Erupting Volcano;Common;Fire;0{r};Hero;None;;;At the start of your turn, deal ten damage to all troops and heroes.|Whenever this is damaged by a fire chain, create a Volcanic Cache in a random empty allied field.|Whenever this is damaged by a water chain, you lose the game.
+M3C106;Fishing Pond;Common;Water;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged, create a random Fish from the Relegatia set in a random empty allied field.|Whenever an allied troop is destroyed, add that troop to the encounter rewards.
+M3C107;Mountainroot Bazaar;Common;Air;0{r};Hero;None;;;Countdown 6|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put all allied troops on the bottom of their owner's deck. Put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field. The {h} of all allied troops becomes five.
+M3C108;Trade Caravan;Common;Light;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C109;Mirror Gallery;Common;Light;0{r};Hero;None;;;At the start of your turn, if there are no allied troops, you lose the game.
+M3C110;Rathos Armory;Common;Earth;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C111;Burla Farmstead;Common;Earth;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C112;Lyrdhin Fairground;Common;Rainbow;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.
+M3C113;Capsized Trade Ship;Common;Water;0{r};Hero;None;;;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C114;Xambr Mine;Common;Earth;0{r};Hero;None;;;Countdown 15|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged by a light chain, create a Gold Vein in a random empty allied field.|Whenever this is damaged by a darkness chain, create a Silver Vein in a random empty allied field.|Whenever this is damaged by a fire chain, create a Demolition Bomb in a random empty allied field.|Whenever this is damaged by a water chain, create an Underground Wash in a random empty allied field.|Whenever this is damaged by an air chain, create a Crystal Vein in a random empty allied field.|Whenever this is damaged by an earth chain, create a Copper Vein in a random empty allied field.
+M3C201;Booster Chest;Uncommon;Neutral;0{r};Troop;None;True;20;When this is destroyed, add a booster pack to the encounter rewards.
+M3C202;Gold Chest;Rare;Neutral;0{r};Troop;Treasure;True;30;When this is destroyed, add 2000 gold to the encounter rewards.
+M3C203;Forbidden Chest;Exceptional;Neutral;0{r};Troop;Treasure;True;50;When this is destroyed, add a random exceptional card from the Relegatia set to the encounter rewards.
+M3C204;Volcanic Cache;Common;Fire;0{r};Troop;Treasure;True;100;When this is destroyed, add a random fire card from the Relegatia set to the encounter rewards.
+M3C205;Duplicating Mirror;Common;Light;0{r};Troop;Treasure;True;77;Can't be damaged.|Whenever a troop enters the battlegrounds on the opposite field, this changes to that troop. Add a copy of that troop to the encounter rewards.
+M3C206;Weapon Rack;Common;Neutral;0{r};Troop;None;True;25;When this is destroyed, add a random Weapon from the Relegatia set to the encounter rewards.
+M3C207;Armor Rack;Common;Neutral;0{r};Troop;None;True;25;When this is destroyed, add a random Armor from the Relegatia set to the encounter rewards.
+M3C208;Mushroom Patch;Common;Neutral;0{r};Troop;None;True;7;When this is destroyed, add a random Mushroom from the Relegatia set to the encounter rewards.
+M3C209;Fruit Garden;Common;Neutral;0{r};Troop;None;True;7;When this is destroyed, add a random Fruit from the Relegatia set to the encounter rewards.
+M3C210;Bubbling Cauldron;Common;Neutral;0{r};Troop;None;True;12;When this is destroyed, add a random Potion from the Relegatia set to the encounter rewards.
+M3C211;Ochre Crate;Common;Light;0{r};Troop;Treasure;True;5;When this is destroyed, add a random common light card from the Relegatia set to the encounter rewards.
+M3C212;Indigo Crate;Common;Darkness;0{r};Troop;Treasure;True;5;When this is destroyed, add a random common darkness card from the Relegatia set to the encounter rewards.
+M3C213;Garnet Crate;Common;Fire;0{r};Troop;Treasure;True;5;When this is destroyed, add a random common fire card from the Relegatia set to the encounter rewards.
+M3C214;Cobalt Crate;Common;Water;0{r};Troop;Treasure;True;5;When this is destroyed, add a random common water card from the Relegatia set to the encounter rewards.
+M3C215;Azure Crate;Common;Air;0{r};Troop;Treasure;True;5;When this is destroyed, add a random common air card from the Relegatia set to the encounter rewards.
+M3C216;Umber Crate;Common;Earth;0{r};Troop;Treasure;True;5;When this is destroyed, add a random common earth card from the Relegatia set to the encounter rewards.
+M3C221;Amber Chest;Uncommon;Light;0{r};Troop;Treasure;True;10;When this is destroyed, add a random uncommon light card from the Relegatia set to the encounter rewards.
+M3C222;Onyx Chest;Uncommon;Darkness;0{r};Troop;Treasure;True;10;When this is destroyed, add a random uncommon darkness card from the Relegatia set to the encounter rewards.
+M3C223;Cinnabar Chest;Uncommon;Fire;0{r};Troop;Treasure;True;10;When this is destroyed, add a random uncommon fire card from the Relegatia set to the encounter rewards.
+M3C224;Aquamarine Chest;Uncommon;Water;0{r};Troop;Treasure;True;10;When this is destroyed, add a random uncommon water card from the Relegatia set to the encounter rewards.
+M3C225;Turquoise Chest;Uncommon;Air;0{r};Troop;Treasure;True;10;When this is destroyed, add a random uncommon air card from the Relegatia set to the encounter rewards.
+M3C226;Jade Chest;Uncommon;Earth;0{r};Troop;Treasure;True;10;When this is destroyed, add a random uncommon earth card from the Relegatia set to the encounter rewards.
+M3C231;Hallowed Antique;Rare;Light;0{r};Troop;Treasure;True;20;When this is destroyed, add a random rare light card from the Relegatia set to the encounter rewards.
+M3C232;Forsaken Relic;Rare;Darkness;0{r};Troop;Treasure;True;20;When this is destroyed, add a random rare darkness card from the Relegatia set to the encounter rewards.
+M3C233;Infernal Hoard;Rare;Fire;0{r};Troop;Treasure;True;20;When this is destroyed, add a random rare fire card from the Relegatia set to the encounter rewards.
+M3C234;Frozen Treasure;Rare;Water;0{r};Troop;Treasure;True;20;When this is destroyed, add a random rare water card from the Relegatia set to the encounter rewards.
+M3C235;Summit's Reward;Rare;Air;0{r};Troop;Treasure;True;20;When this is destroyed, add a random rare air card from the Relegatia set to the encounter rewards.
+M3C236;Underbrush Stash;Rare;Earth;0{r};Troop;Treasure;True;20;When this is destroyed, add a random rare earth card from the Relegatia set to the encounter rewards.
+M3C251;Warrior's Strength Gauge;Common;Neutral;0{r};Troop;None;True;999;Whenever this is dealt at least 5 damage, add a random common card from the Relegatia set to the encounter rewards.|Whenever this is damaged, fully heal this.
+M3C252;Champion's Strength Gauge;Uncommon;Neutral;0{r};Troop;None;True;999;Whenever this is dealt at least 10 damage, add a random uncommon card from the Relegatia set to the encounter rewards.|Whenever this is damaged, fully heal this.
+M3C253;Behemoth's Strength Gauge;Rare;Neutral;0{r};Troop;None;True;999;Whenever this is dealt at least 15 damage, add a random rare card from the Relegatia set to the encounter rewards.|Whenever this is damaged, fully heal this.
+M3C261;Gold Vein;Rare;Light;0{r};Troop;None;True;100;When this is destroyed, add 4000 gold to the encounter rewards.
+M3C262;Silver Vein;Uncommon;Darkness;0{r};Troop;None;True;50;When this is destroyed, add 1500 gold to the encounter rewards.
+M3C263;Copper Vein;Common;Earth;0{r};Troop;None;True;20;When this is destroyed, add 500 gold to the encounter rewards.
+M3C264;Crystal Vein;Common;Air;0{r};Troop;None;True;30;When this is destroyed, transform all enemy {n} into {N}.
+M3C265;Demolition Bomb;Common;Fire;0{r};Troop;None;True;1;At the start of your turn, deal 20 damage to all troops.
+M3C266;Underground Wash;Common;Water;0{r};Troop;None;True;5;At the start of your turn, deal five damage to all allied non-water troops.
+M3C271;Training Dummy;Common;Neutral;0{r};Troop;None;True;1;When this is destroyed, add 100 experience to the encounter rewards.
+M3C272;Armed Dummy;Uncommon;Neutral;0{r};Troop;None;True;20;When this is destroyed, add 1000 experience to the encounter rewards.
+M3C273;Golden Dummy;Rare;Neutral;0{r};Troop;None;True;30;When this is destroyed, add 5000 experience to the encounter rewards.
+M3C274;Crystal Dummy;Exceptional;Neutral;0{r};Troop;None;True;40;When this is destroyed, add 7500 experience to the encounter rewards.
+M3C275;Platinum Dummy;Secret;Neutral;0{r};Troop;None;True;50;When this is destroyed, add 10000 experience to the encounter rewards.
+M3C276;Elite Dummy;Forbidden;Neutral;0{r};Troop;None;True;60;When this is destroyed, add 20000 experience to the encounter rewards.
+M3C291;Mysterious Crate;Common;Neutral;0{r};Troop;None;True;17;Stats are hidden.|When this is destroyed, add a random card from the Relegatia set to the encounter rewards.
+M3C292;Enigmatic Crate;Common;Neutral;0{r};Troop;None;True;3;Stats are hidden.|When this is destroyed, add a random card from the Relegatia set to the encounter rewards.
+M3C293;Unlabeled Crate;Common;Neutral;0{r};Troop;None;True;20;Stats are hidden.|When this is destroyed, add a random card from the Relegatia set to the encounter rewards.
+M3C294;Peculiar Crate;Common;Neutral;0{r};Troop;None;True;15;Stats are hidden.|When this is destroyed, add a random card from the Relegatia set to the encounter rewards.
+M3C295;Weird Crate;Common;Neutral;0{r};Troop;None;True;22;Stats are hidden.|When this is destroyed, add a random card from the Relegatia set to the encounter rewards.
+M3C296;Odd Crate;Common;Neutral;0{r};Troop;None;True;14;Stats are hidden.|When this is destroyed, add a random card from the Relegatia set to the encounter rewards.
+M3C301;Sandveil;Forbidden;Light;3{l};Troop;None;;1;Can't be chosen|Can't be damaged.|
+M3C302;Tentacle;Forbidden;Water;0{r};Troop;None;True;8;When this is destroyed, your hero gains -1 {wc}.
+M3C303;Illusion;Uncommon;Water;0{r};Troop;Illusion;True;1;At the start of your turn, destroy this.
+M3C304;Tumbleweed;Common;Light;3{r};Troop;Plant;True;3;
+M3C305;Mirage;Uncommon;Air;0{r};Troop;Illusion;True;5;At the start of your turn, destroy this.
+M3C311;Beryl Rose;Common;Light;10{r};Troop;Plant;True;5;
+M3C312;Amethyst Rose;Common;Darkness;10{r};Troop;Plant;True;5;
+M3C313;Ruby Rose;Common;Fire;10{r};Troop;Plant;True;5;
+M3C314;Sapphire Rose;Common;Water;10{r};Troop;Plant;True;5;
+M3C315;Topaz Rose;Common;Air;10{r};Troop;Plant;True;5;
+M3C316;Emerald Rose;Common;Earth;10{r};Troop;Plant;True;5;
+M3C8001;Puzzle Master;Forbidden;Rainbow;0{r};Hero;None;;;
+M3C8002;Puzzle Adept;Forbidden;Rainbow;0{r};Hero;None;;;
+M3C9001;Puzzle Barrier;Forbidden;Rainbow;0{r};Troop;Wall;True;1;
+M3B1;Bowling Adept;Rare;Neutral;0{r};Hero;None;;;
+M3B2;Bowling Bellie;Rare;Neutral;0{r};Hero;None;;;At the start of your turn, if there are at least 3 allied Pins, you win the game.|At the start of your opponent's turn, put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field.
+M3B3;Three Pins;Uncommon;Rainbow;3{r};Troop;Pin;True;3;This can only be dealt exact damage.
+M3B4;Four Pins;Common;Rainbow;4{r};Troop;Pin;True;4;This can only be dealt exact damage.
+M3B5;Five Pins;Common;Rainbow;5{r};Troop;Pin;True;5;This can only be dealt exact damage.
+M3B6;Six Pins;Uncommon;Rainbow;6{r};Troop;Pin;True;6;This can only be dealt exact damage.
+M3B7;Seven Pins;Rare;Rainbow;7{r};Troop;Pin;True;7;This can only be dealt exact damage.
+M3B8;Eight Pins;Rare;Rainbow;8{r};Troop;Pin;True;8;This can only be dealt exact damage.
+M3B9;Nine Pins;Exceptional;Rainbow;9{r};Troop;Pin;True;9;This can only be dealt exact damage.
+M3B10;Ten Pins;Exceptional;Rainbow;10{r};Troop;Pin;True;10;This can only be dealt exact damage.
+M3B101;Split;Common;Light;0{r};Action;None;;;Destroy the enemy center Pin..
+M3B102;Flush;Common;Darkness;0{r};Action;None;;;Destroy chosen enemy Pin.
+M3B103;X-Roll;Common;Fire;0{r};Action;None;True;;Destroy all crystals in chosen diagonal cross.
+M3B104;Eight Ball;Common;Water;0{r};Action;None;True;;Destroy all crystals in chosen 3x3 ring.
+M3B105;Straight Roll;Common;Earth;0{r};Action;None;True;;Destroy all crystals in chosen line.
+M3B106;Pit Roll;Common;Air;0{r};Action;None;True;;Destroy all crystals in chosen column.
+M3B107;Chop;Common;Rainbow;0{r};Action;None;True;;Destroy chosen allied crystal.
+M3B108;Re-Roll;Common;Rainbow;0{r};Action;None;True;;You get an extra turn.
+M3B109;Strike;Common;Fire;0{r};Action;None;;;Destroy all enemy Pins.
+M3R1101;Light Up;Common;Light;2{r};Action;None;True;;Transform chosen allied {l} into {L}.
+M3R1102;Meerkat;Common;Light;3{r};Troop;None;True;3;
+M3R1103;Imperial Soldier;Common;Light;3{l};Troop;Imperial;;6;
+M3R1104;Emerald Cobra;Common;Light;5{l};Troop;Snake;;3;When this is destroyed, poison a random enemy troop for one damage per turn.
+M3R1105;Turn to Light;Common;Light;3{r};Action;None;True;;Change the element of chosen allied crystal to light.
+M3R1106;Camel;Common;Light;6{l};Troop;Beast;;11;The cost of Nhubi'Reg in your hand is reduced by 2.
+M3R1107;Southern Cross;Common;Light;15{r};Action;None;True;;Destroy all crystals in chosen cross.
+M3R1108;Cone of Light;Common;Light;12{r};Action;None;True;;Destroy chosen darkness troop.
+M3R1109;Cactus Fig;Common;Light;7{r};Action;Fruit;True;;For this turn, your hero gains +300 {lp}. Heal 5 {h} from your hero.
+M3R1110;Lumushroom;Common;Light;3{l};Action;Mushroom;;;Chosen allied troop gains Healing 2.
+M3R1111;Caravan Guard;Common;Light;6{l};Troop;NhubiReg;;8;When this enters the battlegrounds, heal 5 {h} from your hero.
+M3R1112;Caravan Robber;Common;Light;6{l};Troop;NhubiReg;;8;When this enters the battlegrounds, deal five damage to the enemy hero.
+M3R1113;Sandsleeper;Common;Light;7{l};Troop;NhubiReg;;10;
+M3R1114;Red Mesa Lookout;Common;Light;3{l};Troop;NhubiReg;;6;The hand of your opponent is revealed.
+M3R1115;Lifeweaver;Common;Light;4{l};Troop;NhubiReg;;1;When this enters the battlegrounds, this gains +2{h} for each card in your hand.
+M3R1117;Back from the Brink;Common;Light;5{l};Action;None;;;You draw two cards from the bottom of your deck.
+M3R1118;Coral Snake;Common;Light;7{l};Troop;Snake;;8;When this enters the battlegrounds, poison the opposite troop for one damage per turn.
+M3R1119;Cactus Juice;Common;Light;10{r};Action;None;True;;For this turn, your hero gains +3 {lc}. You draw a card.
+M3R1120;Luminiscent Sword;Common;Light;5{r};Action;Weapon;True;;Your hero gains +2 {lc}.
+M3R1121;Fennek;Common;Light;4{l};Troop;Beast;;8;
+M3R1141;Lethe Balmer;Common;Light;6{l};Troop;Lethe;;12;At the start of your turn, heal 3 {h} from all other damaged allied troops.
+M3R1201;Illuminate Darkness;Uncommon;Light;10{r};Action;None;True;;Transform all allied {d} into {l}.
+M3R1202;Light Crystal Vein;Uncommon;Light;5{r};Action;None;True;;Your hero gains +100 {lp}.
+M3R1203;Golden Cudgel;Uncommon;Light;15{r};Action;Weapon;True;;Your hero gains +1 {l}.
+M3R1204;Frontline Map;Uncommon;Light;10{l};Action;Map;;;Create an Imperial Soldier in all empty allied fields.
+M3R1205;Change of Heart;Uncommon;Light;8{r};Action;None;True;;Change the bonus element of chosen troop to light.
+M3R1206;Vulture;Uncommon;Light;6{l};Troop;Bird;;12;Whenever an other troop is destroyed, heal 5 {h} from this.
+M3R1207;Knight's Shield;Uncommon;Light;10{r};Action;Armor;True;;"Chosen allied troop gains ""Until your next turn, this gains ""Can't be damaged""""."
+M3R1208;Daybreak;Uncommon;Light;6{l};Action;None;;;Destroy chosen non-light troop.
+M3R1209;Lethe Sigil;Uncommon;Light;10{r};Action;Sigil;True;;Your hero gains +2 {lc}, +1 {fc} and  +1 {ac}.
+M3R1210;Prism Ray;Uncommon;Light;10{r};Action;None;True;;Destroy all allied crystals in the center columns.
+M3R1211;Veh’Lira, Sandveil Mage;Uncommon;Light;7{l};Troop;NhubiReg;;12;"When this enters the battlegrounds, other allied troops gain ""Can't be damaged"" until your next turn."
+M3R1212;Water Carrier;Uncommon;Light;8{l};Troop;NhubiReg;;15;Whenever you create one or more {L}, transform a random allied {w} into {W}.
+M3R1213;Dunesurfer;Uncommon;Light;8{l};Troop;NhubiReg;;12;Whenever your hero is dealt at least 10 damage, put this on a random empty allied field.
+M3R1214;Sanguine Initiate;Uncommon;Light;7{l};Troop;NhubiReg;;13;At the start of your turn, if there are at least 7 cards in your hand, double the bonus of this.
+M3R1215;Snakecatcher;Uncommon;Light;10{l};Troop;NhubiReg;;12;Whenever you swipe a light chain with 7 or more crystals, you create a random Snake from the Relegatia set in your hand.
+M3R1221;Ruby Ant;Uncommon;Light;5{l};Troop;None;;10;
+M3R1222;Pondback;Uncommon;Light;5{l};Troop;Beast;;10;
+M3R1223;Flying Squirrel;Uncommon;Light;5{l};Troop;Squirrel;;10;
+M3R1224;White Anaconda;Uncommon;Light;5{l};Troop;Snake;;10;
+M3R1225;Umbra Inhibitor;Uncommon;Light;8{l};Troop;Wall;;14;
+M3R1241;Plague Doctor;Uncommon;Light;6{l};Troop;Lethe;;11;At the start of your turn, heal all poison from all troops.
+M3R1242;Watermaster of Lethe;Uncommon;Light;9{l};Troop;Lethe;;10;When this enters the battlegrounds, fully heal chosen other troop. Remove all abilities from that troop.
+M3R1246;Burla Phalanx;Uncommon;Light;6{l};Troop;Burla;;8;Whenever this is damaged, heal 2 {h} from this.
+M3R1302;Lumina;Rare;Light;10{l};Troop;None;;10;When this is destroyed, your hero gains +1 {l}.
+M3R1303;Fruit of Vivana;Rare;Light;10{l};Action;Fruit;;;Heal 20 {h} from your hero.
+M3R1304;Tumbleweeds;Rare;Light;5{r};Action;None;True;;Create a Tumbleweed in all empty enemy fields.
+M3R1306;Dragon Lizard;Rare;Light;8{l};Troop;Reptile;;10;Healing 2|
+M3R1307;Sandworm;Rare;Light;18{l};Troop;Beast;;25;Whenever you swipe a light chain, change the element of three random allied non-light crystals to light.
+M3R1308;Pyramid Beetle;Rare;Light;9{l};Troop;Insect;;14;When this enters the battlegrounds, destroy all allied {N}. Deal five damage to the enemy hero for each  destroyed crystal.
+M3R1309;Light Everlasting;Rare;Light;14{l};Action;None;;;Destroy all non-light troops.
+M3R1310;Purify;Rare;Light;30{r};Action;None;True;;Destroy all allied non-light {n}.
+M3R1311;Azh'Alea, Archangel;Rare;Light;10{l};Troop;NhubiReg;;16;Whenever you create one or more {L}, deal two damage to all non-light troops.
+M3R1312;Au’Varu, Sentinel of Au'Resh;Rare;Light;9{l};Troop;NhubiReg;;13;At the start of your turn, heal 1 {h} from your hero for each allied water crystal. Destroy all allied water crystals.
+M3R1313;Mara’Kyca, the Cactus;Rare;Light;10{l};Troop;NhubiReg;;16;When this enters the battlegrounds, destroy chosen enemy non-light troop.
+M3R1314;Xuh’Rok, Lightwielder;Rare;Light;8{l};Troop;NhubiReg;;14;Whenever you swipe a light chain with 5 or more crystals, destroy all allied darkness crystals.
+M3R1315;Azh’Rathma, Matriarch;Rare;Light;8{l};Troop;NhubiReg;;15;Double the bonus of all allied Nhubi'Reg.
+M3R1316;Sunblade;Rare;Light;15{r};Action;None;True;;Destroy all enemy darkness crystals.
+M3R1341;The Hangman of Gallowwood;Rare;Light;8{l};Troop;Lethe;;16;Whenever you swipe a light chain with 8 or more crystals in a circle, destroy a random non-light troop.
+M3R1342;Inveltima, Root Oracle;Rare;Light;7{l};Troop;Lethe;;10;At the start of your turn, you draw a card. You discard a random non-light card.
+M3R1343;Asmyr, Venomaster;Rare;Light;10{l};Troop;Lethe;;15;Whenever an other allied troop enters the battlegrounds, that troop gains Healing 2.|Whenever an enemy troop enters the battlegrounds, poison that troop for two damage per turn.
+M3R1346;Scholar of Vanimunt;Rare;Light;8{l};Troop;Vantu;;6;When this enters the battlegrounds, you draw a light card.|When this is destroyed, you draw a darkness card.
+M3R1347;Raziela, Hidden Consort;Rare;Light;10{l};Troop;Vantu;;12;"Can't be chosen.|As long as there is a different allied troop, this gains ""Can't be damaged""."
+M3R1348;Keren, Growthmage;Rare;Light;7{l};Troop;Burla;;10;At the start of your turn, transform all allied {e} neighboring a water crystal and a light crystal into {E}.
+M3R1401;Heosphoros;Exceptional;Light;30{l};Troop;Dragon;;40;At the start of your opponent's turn, deal one damage to the enemy hero for each enemy darkness crystal.
+M3R1402;Empress Kara;Exceptional;Light;17{l};Troop;GoddessOfOrder;;25;Whenever a non-light troop enters the battlegrounds, destroy that troop.
+M3R1403;Melxior, Lux Altera;Exceptional;Light;20{l};Troop;GodOfLight;;30;All heroes gain -999 {dp}.
+M3R1502;Pyramid Map;Secret;Light;5{r};Action;Map;True;;You create a random light troop from the Relegatia set in your hand.
+M3R1561;Hibonite Shard;Secret;Light;1{r};Action;None;True;;Transform a random allied {l} into {L}.
+M3R1562;Snake Egg;Secret;Light;6{r};Troop;Egg;True;6;Countdown 2|Whenever the countdown reaches zero, destroy this. You create a random Snake from the Relegatia set in your hand.
+M3R1563;Ovophidia ;Secret;Light;3{l};Troop;Snake;;3;
+M3R1564;Blumato;Secret;Light;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {lp}+200 {wp}. Heal 5 {h} from your hero.
+M3R1565;Goldberry;Secret;Light;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {lp}+200 {ep}. Heal 5 {h} from your hero.
+M3R1567;Cactus Grower;Secret;Light;10{l};Troop;NhubiReg;;10;When this enters the battlegrounds, create a Beryl Rose in a random empty allied field.
+M3R1568;Berry Gleaner;Secret;Light;9{l};Troop;Lethe;;9;When this enters the battlegrounds, you create a random light Fruit from the Relegatia set in your hand.
+M3R1571;Au'relia's Aubade;Secret;Light;15{r};Action;Song;True;;For this turn, your hero gains +300 {lp}, -1 {lt} and  +3 {lc}.
+M3R2101;Overshadow;Common;Darkness;2{r};Action;None;True;;Transform chosen allied {d} into {D}.
+M3R2102;Hoot Owl;Common;Darkness;3{r};Troop;Bird;True;3;
+M3R2103;Nightwolf;Common;Darkness;5{d};Troop;Beast;;10;
+M3R2104;Giant Maggot;Common;Darkness;7{d};Troop;None;;13;Whenever an other troop is destroyed, your hero gains 5 {r}.
+M3R2105;Turn to Darkness;Common;Darkness;3{r};Action;None;True;;Change the element of chosen allied crystal to darkness.
+M3R2106;Ink Cloud;Common;Darkness;4{r};Action;None;True;;"Until your next turn, allied troops gain ""Can't be chosen""."
+M3R2107;Devouring Wisps;Common;Darkness;15{r};Action;None;True;;Destroy all crystals in chosen 3x3 square.
+M3R2108;Mercy Killing;Common;Darkness;15{r};Action;None;True;;Destroy chosen damaged troop.
+M3R2109;Mooncurrant;Common;Darkness;7{r};Action;Fruit;True;;For this turn, your hero gains +300 {dp}. Heal 5 {h} from your hero.
+M3R2110;Deathcap;Common;Darkness;3{d};Action;Mushroom;;;Poison chosen troop for two damage per turn.
+M3R2111;Obscura Aspirant;Common;Darkness;6{d};Troop;Obscura;;12;
+M3R2112;Foundation Builder;Common;Darkness;7{d};Troop;Obscura;;14;
+M3R2113;Wyrmwrangler;Common;Darkness;8{d};Troop;Obscura;;15;
+M3R2114;Overworld Smuggler;Common;Darkness;6{d};Troop;Obscura;;9;When this enters the battlegrounds, you draw a card from your opponent's deck.
+M3R2115;Sarayah's Honor Guard;Common;Darkness;6{d};Troop;Obscura;;9;Whenever your hero is damaged, deal three damage to the enemy hero.
+M3R2116;Puma Spirit;Common;Darkness;9{d};Troop;None;;14;
+M3R2117;Robbery;Common;Darkness;5{d};Action;None;;;You draw two cards from your opponent's deck.
+M3R2118;Pit Viper;Common;Darkness;6{d};Troop;Snake;;10;Whenever an enemy troop enters the battlegrounds, poison that troop for one damage per turn.
+M3R2119;Darkwood Ambush;Common;Darkness;10{r};Action;None;True;;Your opponent discards two random troops.
+M3R2120;Eclipse Sword;Common;Darkness;5{r};Action;Weapon;True;;Your hero gains +2 {dc}.
+M3R2141;Core Sapper;Common;Darkness;5{d};Troop;Xambr;;8;When this enters the battlegrounds, steal 10 {r} from your opponent.
+M3R2142;Silversmith;Common;Darkness;7{d};Troop;Xambr;;11;Whenever you swipe a chain, transform a random allied {n} of that chain's element into {N}.
+M3R2146;Vantu Spy;Common;Darkness;10{d};Troop;Vantu;;10;When this enters the battlegrounds, you steal a random card  in your opponent's hand.
+M3R2201;Extinguish Light;Uncommon;Darkness;10{r};Action;None;True;;Transform all allied {l} into {d}.
+M3R2202;Dark Crystal Vein;Uncommon;Darkness;5{r};Action;None;True;;Your hero gains +100 {dp}.
+M3R2203;Ratunnara's Scythe;Uncommon;Darkness;15{r};Action;Weapon;True;;Your hero gains +1 {d}.
+M3R2204;Catacomb Map;Uncommon;Darkness;6{d};Action;Map;;;You draw a card from the bottom of your deck. You draw a card from the bottom of your opponent's deck.
+M3R2205;Jougs;Uncommon;Darkness;5{d};Action;None;;;Remove the bonus from chosen troop.
+M3R2206;Fruit Bat;Uncommon;Darkness;3{d};Troop;None;;4;When this enters the battlegrounds, you create a random Fruit from the Relegatia set in your hand.
+M3R2207;Bloodsucker;Uncommon;Darkness;20{r};Troop;None;True;7;Whenever you swipe a darkness chain, deal one damage to all enemy troops and heroes. Heal 1 {h} from this for each  damage dealt.
+M3R2208;Exfusion;Uncommon;Darkness;5{d};Action;None;;;Deal five damage to chosen troop. Heal 5 {h} from your hero.
+M3R2209;Xambr Sigil;Uncommon;Darkness;10{r};Action;Sigil;True;;Your hero gains +2 {dc}, +1 {fc} and  +1 {ec}.
+M3R2210;Outer Darkness;Uncommon;Darkness;10{r};Action;None;True;;Destroy all allied crystals in the outer columns.
+M3R2211;Mushroom Picker;Uncommon;Darkness;6{d};Troop;Obscura;;11;Whenever you swipe a darkness chain with 5 or more crystals, you create a random Mushroom from the Relegatia set in your hand.
+M3R2212;Lux Sola Steelwright;Uncommon;Darkness;7{d};Troop;Obscura;;13;At the start of your turn, transform all allied {l} without a neighbor of the same element into {D}.
+M3R2213;Guardian of Styx;Uncommon;Darkness;6{d};Troop;Obscura;;12;Whenever an enemy troop with 20 or more {h} enters the battlegrounds, destroy that troop. Destroy this.
+M3R2214;Eos the Returned;Uncommon;Darkness;8{d};Troop;Obscura;;14;Whenever you play a light card, double the bonus of this.
+M3R2215;Undersea Fisher;Uncommon;Darkness;7{d};Troop;Obscura;;14;When this enters the battlegrounds, you draw a card from the bottom of your opponent's deck.
+M3R2221;Charooster;Uncommon;Darkness;5{d};Troop;Bird;;10;
+M3R2222;Penguin;Uncommon;Darkness;5{d};Troop;Bird;;10;
+M3R2223;Stormbrawler;Uncommon;Darkness;5{d};Troop;Beast;;10;
+M3R2224;Starnosed Mole;Uncommon;Darkness;5{d};Troop;Beast;;10;
+M3R2225;Lux Inhibitor;Uncommon;Darkness;8{d};Troop;Wall;;14;
+M3R2241;Scrapstealer;Uncommon;Darkness;5{d};Troop;Xambr;;8;When this enters the battlegrounds, enemy troops gain -2{h}. This gains +2{h} for each enemy troop.
+M3R2242;Demolition Master;Uncommon;Darkness;8{d};Troop;Xambr;;8;When this enters the battlegrounds, destroy all enemy {N}.
+M3R2246;Stoic Assassin;Uncommon;Darkness;10{d};Troop;Vantu;;8;When this enters the battlegrounds, destroy the opposite troop.
+M3R2301;Angler Spider;Rare;Darkness;8{d};Troop;None;;14;Whenever you swipe a light chain with 7 or more crystals, destroy a random enemy troop.
+M3R2302;Nocturna;Rare;Darkness;10{d};Troop;None;;10;When this is destroyed, your hero gains +1 {d}.
+M3R2303;Azaroyd, Death's Blade;Rare;Darkness;20{r};Action;Weapon;True;;Whenever a troop is destroyed, heal 20 {h} from your hero. At the start of your turn, deal ten damage to your hero.
+M3R2304;Seven-Slayer;Rare;Darkness;21{d};Troop;Beast;;21;At the start of your turn, poison a random enemy troop for one damage per turn.
+M3R2305;Ink Bay Octopus;Rare;Darkness;5{d};Troop;Fish;;10;Whenever you swipe a water chain with 7 or more crystals, you create an Ink Cloud in your hand.
+M3R2306;Alligator;Rare;Darkness;10{d};Troop;Beast;;16;Whenever an enemy water troop enters the battlegrounds, deal three damage to that troop.
+M3R2307;Ouroboros;Rare;Darkness;9{d};Troop;None;;19;Whenever you swipe a darkness chain, increase the bonus of this by 1.|Whenever you swipe a light chain, decrease the bonus of this by 1.
+M3R2308;Nightmare Broth;Rare;Darkness;0{r};Action;Potion;True;;Deal ten damage to your hero. Remove this from the game. You draw two cards.
+M3R2309;Blood for Blood;Rare;Darkness;0{r};Action;None;True;;Destroy all troops. Deal ten damage to your hero for each  destroyed troop.
+M3R2310;Defile;Rare;Darkness;30{r};Action;None;True;;Destroy all enemy non-darkness {n}.
+M3R2311;Crystal Thief;Rare;Darkness;6{d};Troop;Obscura;;11;At the start of your turn, steal a super crystal from your opponent.
+M3R2312;Last Pilgrim;Rare;Darkness;7{d};Troop;Obscura;;14;Whenever your opponent discards a card, you draw a card from the bottom of your opponent's deck.
+M3R2313;Meline, Daughter of Darkness;Rare;Darkness;9{d};Troop;Obscura;;16;At the start of your opponent's turn, your opponent discards a card of their choice.
+M3R2314;Wyrmslayer;Rare;Darkness;9{d};Troop;Obscura;;18;Whenever an enemy troop is destroyed, double the bonus of this.
+M3R2315;Blind Sculptor;Rare;Darkness;11{d};Troop;Obscura;;16;When this enters the battlegrounds, you draw a card from your opponent's deck.|Whenever you draw a card from your opponent's deck, transform a random allied {n} of that card's element into {N}.
+M3R2316;Moonblade;Rare;Darkness;15{r};Action;None;True;;Destroy all enemy light crystals.
+M3R2317;Slaughter;Rare;Darkness;0{r};Action;None;True;;Destroy chosen allied troop. Your hero gains 1 {r} for each  {h} of that troop.
+M3R2318;Black Hare;Rare;Darkness;5{d};Troop;Beast;;8;"Other allied troops gain ""Can't be chosen""."
+M3R2341;Urian Steelheart;Rare;Darkness;9{d};Troop;Xambr;;15;As long as your hero has 30 or less {h}, double the bonus of this.
+M3R2342;Electra, Core-Master;Rare;Darkness;10{d};Troop;Xambr;;16;You gain double charge.
+M3R2346;Dragutin the Plunderer;Rare;Darkness;10{d};Troop;Fardal;;16;Whenever an enemy troop is destroyed, you draw a card from your opponent's deck.
+M3R2347;Radumir the Destroyer;Rare;Darkness;10{d};Troop;Fardal;;16;Whenever you draw a card from your opponent's deck, destroy a random enemy troop.
+M3R2401;Styx;Exceptional;Darkness;30{d};Troop;Dragon;;40;At the start of your opponent's turn, if there are no cards in your opponent's hand, steal 10 {r} from your opponent. Otherwise, you steal a random card  in your opponent's hand.
+M3R2402;The Core;Exceptional;Darkness;15{d};Troop;None;;30;At the start of your turn, if you have at least 400 {r}, you win the game.
+M3R2403;Lorzhan, the Orphan God;Exceptional;Darkness;14{d};Troop;GodOfDarkness;;22;At the start of your turn, if this has 11 or less {h}, return this to its owner's hand.
+M3R2404;Aterioth Banished;Exceptional;Darkness;18{d};Troop;GodOfDestruction;;30;Whenever this is damaged, this changes to Attack Stance.
+M3R2502;Underworld Map;Secret;Darkness;5{r};Action;Map;True;;You create a random darkness troop from the Relegatia set in your hand.
+M3R2551;Harvest Lantern;Secret;Darkness;20{r};Troop;Plant;True;10;Your opponent can't play troops in the opposite field.|
+M3R2561;Haxonite Shard;Secret;Darkness;1{r};Action;None;True;;Transform a random allied {d} into {D}.
+M3R2562;Insect Egg;Secret;Darkness;3{r};Troop;Egg;True;3;Countdown 1|Whenever the countdown reaches zero, destroy this. You create a random Insect from the Relegatia set in your hand.
+M3R2563;Nestweaver;Secret;Darkness;3{d};Troop;Insect;;3;
+M3R2564;Raspberry;Secret;Darkness;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {dp}+200 {fp}. Heal 5 {h} from your hero.
+M3R2565;Garlic;Secret;Darkness;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {dp}+200 {ap}. Heal 5 {h} from your hero.
+M3R2566;Umbracerola;Secret;Darkness;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {dp}+200 {lp}. Heal 5 {h} from your hero.
+M3R2567;Orchid Reaper;Secret;Darkness;10{d};Troop;Obscura;;10;When this enters the battlegrounds, create an Amethyst Rose in a random empty allied field.
+M3R2568;Spelunking Geoponist;Secret;Darkness;9{d};Troop;Xambr;;9;When this enters the battlegrounds, you create a random darkness Fruit from the Relegatia set in your hand.
+M3R2571;Nycta's Nocturne;Secret;Darkness;15{r};Action;Song;True;;For this turn, your hero gains +300 {dp}, -1 {dt} and  +3 {dc}.
+M3R2601;Attack Stance;Forbidden;Darkness;18{d};Troop;GodOfDestruction;;30;Your hero deals double damage.|Whenever this is dealt at least 8 damage, this changes to Defense Stance.
+M3R2602;Defense Stance;Forbidden;Darkness;18{d};Troop;GodOfDestruction;;30;This receives half damage.|Your hero receives half damage.|At the start of your opponent's turn, if this has 10 or less {h}, this changes to Desperate Stance.
+M3R2603;Desperate Stance;Forbidden;Darkness;18{d};Troop;GodOfDestruction;;30;Whenever this is damaged, deal one damage to the enemy hero for each  damage dealt.
+M3R3101;Kindle;Common;Fire;2{r};Action;None;True;;Transform chosen allied {f} into {F}.
+M3R3102;Living Flame;Common;Fire;3{r};Troop;None;True;3;
+M3R3103;Obsidian Crab;Common;Fire;8{f};Troop;Beast;;16;When this enters the battlegrounds, destroy a random allied non-fire {n}.
+M3R3104;Flamesheep;Common;Fire;5{f};Troop;Beast;;10;Whenever you swipe a fire chain, increase the bonus of this by 50.
+M3R3105;Turn to Fire;Common;Fire;3{r};Action;None;True;;Change the element of chosen allied crystal to fire.
+M3R3106;Salamander;Common;Fire;6{f};Troop;Beast;;6;
+M3R3107;Volcanic Veinburst;Common;Fire;15{r};Action;None;True;;Destroy all crystals in chosen diagonal cross.
+M3R3108;Flameburst;Common;Fire;3{r};Action;None;True;;Deal five damage to chosen troop or hero.
+M3R3109;Dragonmaw Pepper;Common;Fire;7{r};Action;Fruit;True;;For this turn, your hero gains +300 {fp}. Heal 5 {h} from your hero.
+M3R3110;Insight Fungus;Common;Fire;0{r};Action;Mushroom;True;;Deal seven damage to your hero. Remove this from the game. You draw two actions.
+M3R3111;Steamgineer;Common;Fire;8{f};Troop;Vapyro;;16;
+M3R3112;Vapyro Vanguard;Common;Fire;5{f};Troop;Vapyro;;8;
+M3R3113;Marked Grifter;Common;Fire;6{f};Troop;Vapyro;;6;When this enters the battlegrounds, deal five damage to the enemy hero.
+M3R3114;Crystal Cannoneer;Common;Fire;7{f};Troop;Vapyro;;12;Whenever you swipe a fire chain with 7 or more crystals, deal five damage to all enemy troops.
+M3R3115;Vatveri Vintner;Common;Fire;5{f};Troop;Vapyro;;8;When this enters the battlegrounds, you draw an action.
+M3R3116;Concussive Blow;Common;Fire;10{r};Action;None;True;;Your opponent discards two random actions.
+M3R3117;Get into Gear;Common;Fire;5{f};Action;None;;;You draw two actions.
+M3R3118;Vatverian Wine;Common;Fire;5{r};Action;None;True;;For this turn, your hero gains +1 {f}.
+M3R3120;Blaze Sword;Common;Fire;5{r};Action;Weapon;True;;Your hero gains +2 {fc}.
+M3R3141;Rathos Secondborn;Common;Fire;6{f};Troop;Rathos;;9;At the start of your opponent's turn, deal one damage to the opposite troop or hero.
+M3R3142;Rathos Lowborn;Common;Fire;6{f};Troop;Rathos;;9;Whenever you swipe a fire chain with 3 or less crystals, your hero gains 10 {r}.
+M3R3201;Vaporize Water;Uncommon;Fire;10{r};Action;None;True;;Transform all allied {w} into {f}.
+M3R3202;Fire Crystal Vein;Uncommon;Fire;5{r};Action;None;True;;Your hero gains +100 {fp}.
+M3R3203;Magma Hammer;Uncommon;Fire;15{r};Action;Weapon;True;;Your hero gains +1 {f}.
+M3R3204;Treasure Map;Uncommon;Fire;10{f};Action;Map;;;Double the gold reward of this encounter.
+M3R3205;Caldera Shark;Uncommon;Fire;7{f};Troop;Fish;;10;When this enters the battlegrounds, destroy all Water troops.
+M3R3208;Fireball;Uncommon;Fire;5{f};Action;None;;;Deal 15 damage to chosen troop or hero.
+M3R3209;Rathos Sigil;Uncommon;Fire;10{r};Action;Sigil;True;;Your hero gains +2 {fc}, +1 {ac} and  +1 {ec}.
+M3R3210;Crossfire;Uncommon;Fire;10{r};Action;None;True;;Destroy all allied crystals in the center cross.
+M3R3211;Smolderreef Corsair;Uncommon;Fire;7{f};Troop;Vapyro;;10;Whenever an enemy troop enters the battlegrounds, deal three damage to that troop.
+M3R3212;Lawalrus Wrangler;Uncommon;Fire;5{f};Troop;Vapyro;;6;When this enters the battlegrounds, you create a Lawalrus Pup in your hand.
+M3R3213;Solarefa, Steam Organist;Uncommon;Fire;7{f};Troop;Vapyro;;13;Whenever you play an action, your hero gains 7 {r}.
+M3R3214;Aukai, Steamship Captain;Uncommon;Fire;8{f};Troop;Vapyro;;12;
+M3R3215;Ikaio, Caldera Fisher;Uncommon;Fire;9{f};Troop;Vapyro;;16;Whenever you play an action, transform a random allied {f} into {F}.
+M3R3221;Glowpin Hedgehog;Uncommon;Fire;5{f};Troop;Beast;;10;
+M3R3222;Flamebat;Uncommon;Fire;5{f};Troop;None;;10;
+M3R3223;Firefly;Uncommon;Fire;5{f};Troop;None;;10;
+M3R3224;Earthbreaker;Uncommon;Fire;5{f};Troop;Beast;;10;
+M3R3225;Aqua Inhibitor;Uncommon;Fire;8{f};Troop;Wall;;14;
+M3R3241;Rathos Firstborn;Uncommon;Fire;10{f};Troop;Rathos;;15;At the start of your opponent's turn, deal two damage to the opposite troop or hero.
+M3R3242;Shula, Mistress of the Blue Flame;Uncommon;Fire;8{f};Troop;Rathos;;12;At the start of your turn, transform all allied water crystals into {f}.
+M3R3246;Deforestator;Uncommon;Fire;7{f};Troop;Xambr;;12;Whenever you swipe a fire chain, transform all allied earth crystals into {f}.
+M3R3247;Lightning Channeler;Rare;Fire;9{f};Troop;Lethe;;16;Whenever a quick card is played by anyone, deal five damage to the enemy hero.
+M3R3301;Ecfer;Rare;Fire;8{f};Troop;None;;8;When this enters the battlegrounds, deal three damage to all enemy troops and heroes.
+M3R3302;Flarea;Rare;Fire;10{f};Troop;None;;10;When this is destroyed, your hero gains +1 {f}.
+M3R3303;Frenzy Plum;Rare;Fire;0{r};Action;Fruit;True;;For this turn, the cost of actions in your hand is reduced by 2.
+M3R3304;Hydra;Rare;Fire;10{f};Troop;None;;16;Whenever this is damaged, increase the bonus of this by 1.
+M3R3305;Kerberos;Rare;Fire;8{f};Troop;None;;15;Whenever the enemy hero is damaged, double the bonus of this.
+M3R3306;Undertaker of Mortuin;Rare;Fire;7{f};Troop;None;;14;Whenever a troop is destroyed, remove that troop from the game.
+M3R3308;Explosion;Rare;Fire;15{r};Action;None;True;;Deal 15 damage to all troops.
+M3R3309;Forked Flame;Rare;Fire;10{f};Action;None;;;Deal ten damage to all enemy troops.
+M3R3310;Extreme Heat;Rare;Fire;10{r};Action;None;True;;Destroy all allied crystals in the center diagonal.
+M3R3311;Makani, Steamglider;Rare;Fire;6{f};Troop;Vapyro;;10;Whenever you swipe an air chain, deal one damage to all enemy troops.
+M3R3312;Malo, Sovereign of Solsed;Rare;Fire;10{f};Troop;Vapyro;;20;Whenever you play a Vapyro, you draw an action.
+M3R3313;Aola, Flamedancer;Rare;Fire;7{f};Troop;Vapyro;;14;Whenever you swipe a fire chain, your hero gains +20 {fp}.
+M3R3314;Sanyi of the Ironspitter;Rare;Fire;8{f};Troop;Vapyro;;18;At the start of your turn, deal three damage to this. Transform a random allied {f} into {F}.
+M3R3315;Kailani, Aeon Shipwright;Rare;Fire;7{f};Troop;Vapyro;;14;Whenever you swipe a non-fire chain, destroy all allied crystals of that chain's element.
+M3R3316;Flameblade;Rare;Fire;15{r};Action;None;True;;Destroy all enemy water crystals.
+M3R3341;Cadmael, First of Firsts;Rare;Fire;20{f};Troop;Rathos;;20;At the start of your opponent's turn, deal five damage to the opposite troop or hero.
+M3R3342;Ashessa, First Valkyrie;Rare;Fire;18{f};Troop;Rathos;;18;Whenever you swipe a non-fire chain, destroy all enemy {N} of that chain's element.
+M3R3346;Charcoal Burner;Rare;Fire;9{f};Troop;Xambr;;15;At the start of your turn, transform all allied {e} into {f}.|At the start of your opponent's turn, transform all allied {f} into {d}.
+M3R3347;Vanos, Condemned Healer;Rare;Fire;10{f};Troop;Lethe;;20;Poisoned 4|At the start of your turn, heal 2 {h} from all other damaged allied troops.
+M3R3401;Surtr;Exceptional;Fire;30{f};Troop;Dragon;;40;At the start of your turn, deal ten damage to all other troops and heroes.
+M3R3402;Ithymia, Burning Within;Exceptional;Fire;16{f};Troop;GoddessOfLove;;25;At the start of your turn, you create a Flameburst in your hand. Deal five damage to this.|Allied actions deal double damage.
+M3R3403;Aganju, Heart of Sol;Exceptional;Fire;20{f};Troop;GodOfChaos;;28;Whenever you play the first action in your turn, you create a random Weapon from the Relegatia set in your hand.
+M3R3502;Volcano Map;Secret;Fire;5{r};Action;Map;True;;You create a random fire troop from the Relegatia set in your hand.
+M3R3561;Majorite Shard;Secret;Fire;1{r};Action;None;True;;Transform a random allied {f} into {F}.
+M3R3562;Dragon Egg;Secret;Fire;20{r};Troop;Egg;True;10;Countdown 3|Whenever the countdown reaches zero, destroy this. You create a random Dragon from the Relegatia set in your hand.
+M3R3563;Madrakaina;Secret;Fire;3{f};Troop;Dragon;;3;
+M3R3564;Emberange;Secret;Fire;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {fp}+200 {lp}. Heal 5 {h} from your hero.
+M3R3565;Cinana;Secret;Fire;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {fp}+200 {ep}. Heal 5 {h} from your hero.
+M3R3566;Mintpepper;Secret;Fire;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {fp}+200 {wp}. Heal 5 {h} from your hero.
+M3R3567;Ash Sower;Secret;Fire;10{f};Troop;Vapyro;;10;When this enters the battlegrounds, create a Ruby Rose in a random empty allied field.
+M3R3568;Spicegrocer;Secret;Fire;9{f};Troop;Rathos;;9;When this enters the battlegrounds, you create a random fire Fruit from the Relegatia set in your hand.
+M3R3571;Solarefa's Sarabande;Secret;Fire;15{r};Action;Song;True;;For this turn, your hero gains +300 {fp}, -1 {ft} and  +3 {fc}.
+M3R4101;Drench;Common;Water;2{r};Action;None;True;;Transform chosen allied {w} into {W}.
+M3R4102;Frog;Common;Water;3{r};Troop;None;True;3;
+M3R4103;Pearl Oyster;Common;Water;5{w};Troop;Fish;;5;When this is destroyed, you create a Pearl in your hand.
+M3R4104;Pearl;Common;Water;3{w};Action;None;;;Transform three random allied {w} into {W}.
+M3R4105;Turn to Water;Common;Water;3{r};Action;None;True;;Change the element of chosen allied crystal to water.
+M3R4106;Pincer Crab;Common;Water;5{w};Troop;Fish;;8;
+M3R4107;Aqua Ring;Common;Water;15{r};Action;None;True;;Destroy all crystals in chosen 3x3 ring.
+M3R4108;Splashback;Common;Water;30{r};Action;None;True;;Put chosen troop on top of its owner's deck.
+M3R4109;Watermelon;Common;Water;7{r};Action;Fruit;True;;For this turn, your hero gains +300 {wp}. Heal 5 {h} from your hero.
+M3R4110;Lethe Toadstool;Common;Water;0{r};Action;Mushroom;True;;You discard a random card. Heal 10 {h} from your hero.
+M3R4111;Netfisher;Common;Water;5{w};Troop;Merfolk;;5;When this enters the battlegrounds, put chosen other troop on top of its owner's deck.
+M3R4112;Merfolk Harpunist;Common;Water;7{w};Troop;Merfolk;;12;
+M3R4113;Wellspring Healer;Common;Water;8{w};Troop;Merfolk;;10;At the start of your turn, heal 2 {h} from all damaged allied troops.
+M3R4114;Kelp Gardener;Common;Water;6{w};Troop;Merfolk;;12;
+M3R4115;Keeper of Elaion;Common;Water;10{w};Troop;Merfolk;;18;
+M3R4116;Hardtack;Common;Water;3{w};Action;None;;;Heal 10 {h} from your hero.
+M3R4117;Frontline Shipment;Common;Water;5{w};Action;None;;;You draw three cards.
+M3R4120;Ripple Sword;Common;Water;5{r};Action;Weapon;True;;Your hero gains +2 {wc}.
+M3R4141;Potion Brewer;Common;Water;7{w};Troop;Vantu;;7;When this enters the battlegrounds, you create a random Potion from the Relegatia set in your hand.
+M3R4142;Cliffdiver;Common;Water;8{w};Troop;Vantu;;12;Whenever you swipe a water chain with 4 or more crystals in a straight vertical line, your hero gains 10 {r}.
+M3R4143;Vantu Diplomat;Common;Water;5{w};Troop;Vantu;;10;When this enters the battlegrounds, all players draw a card.
+M3R4146;Young Wander;Common;Water;6{w};Troop;Burla;;10;When this enters the battlegrounds, transform a random allied non-earth {n} into {N}.
+M3R4201;Douse Fire;Uncommon;Water;10{r};Action;None;True;;Transform all allied {f} into {w}.
+M3R4202;Water Crystal Vein;Uncommon;Water;5{r};Action;None;True;;Your hero gains +100 {wp}.
+M3R4203;Leana's Trident;Uncommon;Water;15{r};Action;Weapon;True;;Your hero gains +1 {w}.
+M3R4204;Faraway Map;Uncommon;Water;4{w};Action;Map;;;Destroy all allied crystals.
+M3R4205;Lawalrus Pup;Uncommon;Water;5{w};Troop;None;;7;
+M3R4206;Grazing Manatee;Uncommon;Water;8{w};Troop;None;;14;Whenever you swipe an earth chain, this gains +2{h}.
+M3R4207;Peaceful Hippo;Uncommon;Water;6{w};Troop;Beast;;12;As long as this is damaged, your hero gains +1 {w}.
+M3R4208;Ice Pillar;Uncommon;Water;8{w};Action;None;;;The {h} of all troops becomes one.
+M3R4209;Vantu Sigil;Uncommon;Water;10{r};Action;Sigil;True;;Your hero gains +2 {wc}, +1 {lc} and  +1 {dc}.
+M3R4210;Erosion;Uncommon;Water;10{r};Action;None;True;;Destroy all allied crystals in the outer ring.
+M3R4211;Pearl Diver;Uncommon;Water;7{w};Troop;Merfolk;;13;Whenever you swipe a water chain with 4 or more crystals in a straight vertical line, you create a Pearl in your hand.
+M3R4212;Sirenia;Uncommon;Water;11{w};Troop;Merfolk;;14;Your opponent can't play troops.
+M3R4213;Glowfish Tamer;Uncommon;Water;6{w};Troop;Merfolk;;9;When this enters the battlegrounds, you create a random Fish from the Relegatia set in your hand.
+M3R4214;Myriel of Icesea;Uncommon;Water;6{w};Troop;Merfolk;;9;Your opponent can't gain charge.
+M3R4215;Stormchaser;Uncommon;Water;8{w};Troop;Merfolk;;12;When this enters the battlegrounds, destroy all allied crystals.
+M3R4221;Walicorn;Uncommon;Water;5{w};Troop;None;;10;
+M3R4222;Horror from the Depths;Uncommon;Water;5{w};Troop;Fish;;10;
+M3R4223;Arcspewer Eel;Uncommon;Water;5{w};Troop;Fish;;10;
+M3R4224;Platypus;Uncommon;Water;5{w};Troop;Beast;;10;
+M3R4225;Ignis Inhibitor;Uncommon;Water;8{w};Troop;Wall;;14;
+M3R4241;Puppetmaster;Uncommon;Water;12{w};Troop;Vantu;;5;When this enters the battlegrounds, steal a random enemy troop and put it on top of your deck.
+M3R4242;Noble Pawn;Uncommon;Water;8{w};Troop;Vantu;;6;When this is destroyed, you draw two cards.
+M3R4301;Jellyfish;Rare;Water;15{r};Troop;Fish;True;8;Whenever you swipe a water chain with 8 or more crystals, you create a Jellyfish in your hand.
+M3R4302;Aquaria;Rare;Water;10{w};Troop;None;;10;When this is destroyed, your hero gains +1 {w}.
+M3R4303;Lawalrus;Rare;Water;7{w};Troop;None;;13;Whenever you swipe a fire chain, increase the bonus of this by 1.
+M3R4304;Kraken;Rare;Water;16{w};Troop;Fish;;16;Whenever this is damaged, decrease the bonus of this by 1.
+M3R4305;Bladeray;Rare;Water;10{w};Troop;Fish;;14;Whenever an enemy air troop enters the battlegrounds, poison that troop for one damage per turn.
+M3R4306;Serpent of Loch Vanitas;Rare;Water;24{w};Troop;Snake;;36;Whenever you swipe a water chain with 8 or more crystals, return a random other troop to its owner's hand.
+M3R4307;Glowfish;Rare;Water;4{w};Troop;Fish;;8;At the start of your turn, transform a random allied {d} into {l}.
+M3R4308;Striped Kurper;Rare;Water;7{w};Troop;Fish;;10;Healing 3|
+M3R4309;Lost at Sea;Rare;Water;12{w};Action;None;;;Put all troops on top of their owner's deck. All players shuffle their deck.
+M3R4310;Upwelling;Rare;Water;15{r};Action;None;True;;Destroy all allied crystals not in the outer ring.
+M3R4311;King Triton;Rare;Water;12{w};Troop;Merfolk;;15;When this enters the battlegrounds, destroy chosen enemy troop with 15 or more {h}.
+M3R4312;Queen Undine;Rare;Water;12{w};Troop;Merfolk;;15;At the start of your turn, heal 1 {h} from your hero for each 10 charge you have.
+M3R4313;Rubinia Redfin;Rare;Water;10{w};Troop;Merfolk;;12;Whenever you play a Merfolk, your hero gains +1 {wc}.
+M3R4314;Ink-Hair;Rare;Water;4{w};Troop;Merfolk;;6;When this enters the battlegrounds, if you have a {A}, return chosen enemy troop to its owner's hand. If you have a {D}, your opponent discards a card of their choice.
+M3R4315;Endymeas the Traitor;Rare;Water;8{w};Troop;Merfolk;;12;At the start of your turn, destroy chosen allied troop. You draw a card.
+M3R4316;Waveblade;Rare;Water;15{r};Action;None;True;;Destroy all enemy fire crystals.
+M3R4317;Thalana, Master Illusionist;Rare;Water;7{w};Troop;Mage;;12;At the start of your turn, create an Illusion in a random empty allied field.
+M3R4341;Mistress of Secrets;Rare;Water;7{w};Troop;Vantu;;14;The hand of your opponent is revealed.|Whenever you swipe a light chain with 7 or more crystals, your opponent draws a card.|Whenever you swipe a darkness chain with 7 or more crystals, you steal a random card  in your opponent's hand.
+M3R4346;Branan, Rainmaker;Rare;Water;8{w};Troop;Burla;;11;At the start of your opponent's turn, transform all allied {f} neighboring a water crystal into {e}.
+M3R4347;Stormguide;Rare;Water;6{w};Troop;Fardal;;10;The cost of water troops in your hand is reduced by 5.
+M3R4401;Nereus;Exceptional;Water;30{w};Troop;Dragon;;40;At the start of your turn, destroy all allied non-water crystals.
+M3R4402;Athariel, Seeking Reversal;Exceptional;Water;20{w};Troop;GodOfDeath;;24;Whenever you swipe a chain with 10 or more crystals, you get an extra turn.
+M3R4403;Au'Relia of the Everflowing Water;Exceptional;Water;14{w};Troop;GoddessOfVirtue;;19;Whenever you create one or more {W}, your hero gains +25 {wp}.
+M3R4502;Ocean Map;Secret;Water;5{r};Action;Map;True;;You create a random water troop from the Relegatia set in your hand.
+M3R4561;Augite Shard;Secret;Water;1{r};Action;None;True;;Transform a random allied {w} into {W}.
+M3R4562;Fish Egg;Secret;Water;4{r};Troop;Egg;True;4;Countdown 2|Whenever the countdown reaches zero, destroy this. You create a random Fish from the Relegatia set in your hand.
+M3R4563;Spawnwardress;Secret;Water;3{w};Troop;Fish;;3;
+M3R4564;Gherkin;Secret;Water;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {wp}+200 {dp}. Heal 5 {h} from your hero.
+M3R4565;Dewberry;Secret;Water;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {wp}+200 {ap}. Heal 5 {h} from your hero.
+M3R4567;Lily Planter;Secret;Water;10{w};Troop;None;;10;When this enters the battlegrounds, create a Sapphire Rose in a random empty allied field.
+M3R4568;Cascade Hydroponist;Secret;Water;9{w};Troop;Vantu;;9;When this enters the battlegrounds, you create a random water Fruit from the Relegatia set in your hand.
+M3R4571;Loreley's Lament;Secret;Water;15{r};Action;Song;True;;For this turn, your hero gains +300 {wp}, -1 {wt} and  +3 {wc}.
+M3R5101;Soar;Common;Air;2{r};Action;None;True;;Transform chosen allied {a} into {A}.
+M3R5102;Chiffchaff;Common;Air;3{r};Troop;Bird;True;3;
+M3R5103;Caltrops;Common;Air;6{r};Troop;Weapon;True;3;Whenever this is damaged, deal three damage to the enemy hero.
+M3R5104;Tame Toucan;Common;Air;5{a};Troop;Bird;;8;When this enters the battlegrounds, transform a random allied {n} into {N}.
+M3R5105;Turn to Air;Common;Air;3{r};Action;None;True;;Change the element of chosen allied crystal to air.
+M3R5106;Red Kite;Common;Air;12{r};Troop;Bird;True;10;
+M3R5107;Lightning Strike;Common;Air;15{r};Action;None;True;;Destroy all crystals in chosen column.
+M3R5108;Burst of Wind;Common;Air;8{r};Action;None;True;;Return chosen troop to its owner's hand.
+M3R5109;Lyra Apple;Common;Air;7{r};Action;Fruit;True;;For this turn, your hero gains +300 {ap}. Heal 5 {h} from your hero.
+M3R5110;Inverse Mushroom;Common;Air;14{r};Action;Mushroom;True;;Reverse the bonus of chosen troop.
+M3R5111;Skyfolk Courier;Common;Air;4{a};Troop;Skyfolk;;7;When this enters the battlegrounds, you draw a card. You discard chosen card.
+M3R5112;Cloudherder;Common;Air;7{a};Troop;Skyfolk;;12;
+M3R5113;Quail Chaser;Common;Air;8{a};Troop;Skyfolk;;8;When this enters the battlegrounds, return chosen other troop to its owner's hand.
+M3R5114;Southern Guardian;Common;Air;6{a};Troop;Skyfolk;;9;When this enters the battlegrounds, destroy all allied crystals in the top row.
+M3R5115;Stormbrewer;Common;Air;9{a};Troop;Skyfolk;;14;At the start of your turn, your hero gains 5 {r}.
+M3R5117;Trade Deal;Common;Air;5{r};Action;None;True;;You draw two cards. You discard chosen card.
+M3R5120;Wind Sword;Common;Air;5{r};Action;Weapon;True;;Your hero gains +2 {ac}.
+M3R5141;Seadrake's Windmaker;Common;Air;7{a};Troop;Fardal;;14;At the start of your turn, your hero gains +10 {ap}.
+M3R5142;Ship's Cook;Common;Air;5{a};Troop;Fardal;;10;When this enters the battlegrounds, all players create a Hardtack in their hand.
+M3R5143;Seadrake's Sailripper;Common;Air;7{a};Troop;Fardal;;14;At the start of your turn, the enemy hero gains -10 {ap}.
+M3R5146;Doomed Wayfinder;Common;Air;6{a};Troop;Rathos;;8;Whenever an enemy troop with 20 or more {h} enters the battlegrounds, return that troop to its owner's hand. Destroy this.
+M3R5147;Lethe Mystic;Common;Air;7{a};Troop;Lethe;;10;Whenever you swipe an air chain, heal 1 {h} from all allied troops.
+M3R5201;Ascend Earth;Uncommon;Air;10{r};Action;None;True;;Transform all allied {e} into {a}.
+M3R5202;Air Crystal Vein;Uncommon;Air;5{r};Action;None;True;;Your hero gains +100 {ap}.
+M3R5203;Aura's Bow;Uncommon;Air;15{r};Action;Weapon;True;;Your hero gains +1 {a}.
+M3R5204;Trade Route Map;Uncommon;Air;7{a};Action;Map;;;All players draw three cards from their opponent's deck.
+M3R5205;Velociraptor;Uncommon;Air;9{a};Troop;Beast;;15;At the start of any player's turn, deal five damage to a random other troop or hero.
+M3R5206;Myriad Mushroom;Uncommon;Air;15{r};Troop;Mushroom;True;1;Whenever this is destroyed, return it to its owner's hand.
+M3R5207;Bounty;Uncommon;Air;6{r};Action;None;True;;"Chosen enemy troop gains ""When this is destroyed, your opponent draws two cards""."
+M3R5208;Lightning Charge;Uncommon;Air;5{a};Action;None;;;Destroy chosen troop. Its allied hero gains 1 {r} for each resource in the cost of the destroyed troop.
+M3R5209;Fardal Sigil;Uncommon;Air;10{r};Action;Sigil;True;;Your hero gains +2 {ac}, +1 {wc} and  +1 {dc}.
+M3R5210;Gale;Uncommon;Air;10{r};Action;None;True;;Destroy all allied crystals in the top row.
+M3R5211;Aura's Honor Guard;Uncommon;Air;6{a};Troop;Skyfolk;;10;Whenever your hero is damaged, double the bonus of this.
+M3R5212;Corax the Charred;Uncommon;Air;8{a};Troop;Skyfolk;;14;As long as this is damaged, double the bonus of this.
+M3R5213;Thornlayer;Uncommon;Air;10{a};Troop;Skyfolk;;14;At the start of your turn, create a Caltrops in a random empty allied field.
+M3R5214;Vasco, Cartograph;Uncommon;Air;7{a};Troop;Skyfolk;;14;Whenever you swipe a chain with 8 or more crystals in a circle, you create a random Map from the Relegatia set in your hand.
+M3R5215;Mountainroot Trader;Uncommon;Air;5{a};Troop;Skyfolk;;10;At the start of any player's turn, that player draws a card. That player discards a card of their choice.
+M3R5219;Hourglass;Uncommon;Air;0{r};Action;None;True;;Turn chosen action in your hand into a quick card.
+M3R5221;Dawndancer Fly;Uncommon;Air;5{a};Troop;None;;10;
+M3R5222;Duskchaser Moth;Uncommon;Air;5{a};Troop;None;;10;
+M3R5223;Pheenix;Uncommon;Air;5{a};Troop;Bird;;10;
+M3R5224;Pelican;Uncommon;Air;5{a};Troop;Bird;;10;
+M3R5225;Solum Inhibitor;Uncommon;Air;8{a};Troop;Wall;;14;
+M3R5241;Coastal Fisher;Uncommon;Air;6{a};Troop;Fardal;;10;Whenever you swipe a chain with 10 or more crystals, you draw a water card.
+M3R5301;Windwalker;Rare;Air;7{a};Troop;None;;14;At the start of your turn, reverse the bonus of this.
+M3R5302;Hallia;Rare;Air;10{a};Troop;None;;10;When this is destroyed, your hero gains +1 {a}.
+M3R5303;Test of Time;Rare;Air;25{r};Action;None;True;;For this turn, you can play cards in your hand as quick cards.
+M3R5304;Persea Euphoria;Rare;Air;0{r};Action;Fruit;True;;For this turn, double the bonus of all allied troops.
+M3R5305;Giant Bee;Rare;Air;6{a};Troop;None;;9;Whenever you create one or more super crystals, transform a random allied {n} into {N}.
+M3R5306;Pterodactyl;Rare;Air;12{a};Troop;Bird;;20;Whenever an enemy troop enters the battlegrounds, deal four damage to that troop.
+M3R5308;On Blood-Red Wings;Rare;Air;0{r};Action;None;True;;Reverse gravity for you.
+M3R5309;Cyclone;Rare;Air;10{a};Action;None;;;Return all troops to their owner's hand.
+M3R5310;Tempest;Rare;Air;20{r};Action;None;True;;Destroy all allied crystals in the top half.
+M3R5311;Irsia of the Rainbow;Rare;Air;5{a};Troop;Skyfolk;;9;At the start of your turn, transform a random allied crystal without a super crystal of the same element into {N}.
+M3R5312;Ianthe, Evening's Herald;Rare;Air;7{a};Troop;Skyfolk;;14;At the start of your turn, transform a random allied {l} into {D}.
+M3R5313;Daina, Heavenly Violinist;Rare;Air;7{a};Troop;Skyfolk;;14;You need 10 {r} less to draw a card.
+M3R5314;Rhufhur, First to Fall;Rare;Air;6{a};Troop;Skyfolk;;13;When this enters the battlegrounds, reverse gravity.|When this is destroyed, reverse gravity.
+M3R5315;The Old Summarch;Rare;Air;10{a};Troop;Skyfolk;;20;Whenever you draw a card, your hero gains 5 {r}.|Whenever you discard a card, your hero gains 5 {r}.
+M3R5316;Galeblade;Rare;Air;15{r};Action;None;True;;Destroy all enemy earth crystals.
+M3R5341;Makkarius Dreyhand;Rare;Air;9{a};Troop;Fardal;;16;Whenever an action is played by anyone, deal three damage to the opposite troop or hero.
+M3R5342;Tollkeeper of Stormbreak;Rare;Air;7{a};Troop;Fardal;;13;Whenever your opponent draws a card, steal 5 {r} from your opponent.
+M3R5343;Rymil, Farseeker;Rare;Air;10{a};Troop;Fardal;;16;When this enters the battlegrounds, you draw a Map.|Whenever you play a Map, change the bonus element of this to that card's element.
+M3R5344;Harbormaster of Stormbreak;Rare;Air;5{a};Troop;Fardal;;10;At the start of your turn, you draw a card. You discard chosen card.
+M3R5346;Spurrer from Schleif;Rare;Air;8{a};Troop;Rathos;;16;Whenever an other allied troop enters the battlegrounds, deal three damage to that troop. Increase the bonus of that troop by 1.
+M3R5347;Aola, Dreaming of Flight;Rare;Air;7{a};Troop;Lethe;;14;At the start of any player's turn, reverse gravity for that player.
+M3R5401;Boreas;Exceptional;Air;30{a};Troop;Dragon;;40;When this enters the battlegrounds, reverse gravity.|At the start of your turn, you draw a card for each allied air crystal in the top row.
+M3R5402;Tormentor, the Scarred God;Exceptional;Air;18{a};Troop;GodOfPain;;30;Whenever this is damaged, if this survives, deal one damage to the opposite troop or hero for each  damage dealt.
+M3R5403;Zephyra, Prodigy of Trade;Exceptional;Air;20{a};Troop;GoddessOfCreation;;24;At the start of your turn, you discard your hand. You draw three cards.
+M3R5502;Mountain Map;Secret;Air;5{r};Action;Map;True;;You create a random air troop from the Relegatia set in your hand.
+M3R5561;Kamacite Shard;Secret;Air;1{r};Action;None;True;;Transform a random allied {a} into {A}.
+M3R5562;Bird Egg;Secret;Air;5{r};Troop;Egg;True;5;Countdown 2|Whenever the countdown reaches zero, destroy this. You create a random Bird from the Relegatia set in your hand.
+M3R5563;Brooding Formel;Secret;Air;3{a};Troop;Bird;;3;
+M3R5564;Crabapple;Secret;Air;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {ap}+200 {lp}. Heal 5 {h} from your hero.
+M3R5565;Broccaeli;Secret;Air;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {ap}+200 {fp}. Heal 5 {h} from your hero.
+M3R5567;Edelweiss Picker;Secret;Air;10{a};Troop;None;;10;When this enters the battlegrounds, create a Topaz Rose in a random empty allied field.
+M3R5568;Wetlands Crofter;Secret;Air;9{a};Troop;Fardal;;9;When this enters the battlegrounds, you create a random air Fruit from the Relegatia set in your hand.
+M3R5571;Stormangel's Supplicatio;Secret;Air;15{r};Action;Song;True;;For this turn, your hero gains +300 {ap}, -1 {at} and  +3 {ac}.
+M3R6101;Burrow;Common;Earth;2{r};Action;None;True;;Transform chosen allied {e} into {E}.
+M3R6102;Squirrel;Common;Earth;3{r};Troop;Squirrel;True;3;
+M3R6103;Lioness;Common;Earth;4{e};Troop;Beast;;8;
+M3R6104;Dreyhorn;Common;Earth;13{e};Troop;Beast;;20;
+M3R6105;Turn to Earth;Common;Earth;3{r};Action;None;True;;Change the element of chosen allied crystal to earth.
+M3R6106;Centurion's Helmet;Common;Earth;10{r};Action;Armor;True;;Chosen allied troop gains +5{h}.
+M3R6107;Monolith Projectile;Common;Earth;15{r};Action;None;True;;Destroy all crystals in chosen line.
+M3R6108;Poisoned Throwing Star;Common;Earth;8{r};Action;None;True;;Poison chosen troop for two damage per turn.
+M3R6109;Strawberry;Common;Earth;7{r};Action;Fruit;True;;For this turn, your hero gains +300 {ep}. Heal 5 {h} from your hero.
+M3R6110;Chanterelle;Common;Earth;5{r};Action;Mushroom;True;;Heal 10 {h} from your hero.
+M3R6111;Tracker Hound;Common;Earth;4{e};Troop;Hunter;;8;
+M3R6112;Fine Furrier;Common;Earth;7{e};Troop;Hunter;;10;Whenever an enemy troop is destroyed, chosen allied troop gains +5{h}.
+M3R6113;Shellcracker;Common;Earth;8{e};Troop;Hunter;;13;
+M3R6114;Beasthunter;Common;Earth;5{e};Troop;Hunter;;7;When this enters the battlegrounds, destroy a random enemy Beast.
+M3R6115;Greenskeeper;Common;Earth;6{e};Troop;Hunter;;8;
+M3R6117;Reinforcements;Common;Earth;5{e};Action;None;;;You draw two troops.
+M3R6118;Mulga Snake;Common;Earth;8{e};Troop;Snake;;14;Whenever this is damaged, poison a random enemy troop for one damage per turn.
+M3R6120;Leaf Sword;Common;Earth;5{r};Action;Weapon;True;;Your hero gains +2 {ec}.
+M3R6141;Farmhand;Common;Earth;5{e};Troop;Burla;;9;
+M3R6142;Logger from Tannhain;Common;Earth;7{e};Troop;Burla;;12;Whenever you swipe an earth chain, transform a random allied {e} into {E}.
+M3R6146;Rathos Dervish;Common;Earth;8{e};Troop;Rathos;;12;At the start of any player's turn, deal one damage to the opposite troop or hero.
+M3R6147;Defender of Durngard;Common;Earth;7{e};Troop;Rathos;;11;Whenever your hero is damaged, deal two damage to the opposite troop or hero.
+M3R6201;Descend Air;Uncommon;Earth;10{r};Action;None;True;;Transform all allied {a} into {e}.
+M3R6202;Earth Crystal Vein;Uncommon;Earth;5{r};Action;None;True;;Your hero gains +100 {ep}.
+M3R6203;Axe of Ursus;Uncommon;Earth;15{r};Action;Weapon;True;;Your hero gains +1 {e}.
+M3R6204;Prospector's Map;Uncommon;Earth;6{e};Action;Map;;;Transform all allied crystals in the bottom row into {N}.
+M3R6205;Mossback Tortoise;Uncommon;Earth;8{e};Troop;Reptile;;14;When this is destroyed, you create a random Mushroom from the Relegatia set in your hand.
+M3R6206;Bag of Nuts;Uncommon;Earth;6{r};Action;Fruit;True;;You create two Squirrel in your hand.
+M3R6207;Kodiak Bear;Rare;Earth;7{e};Troop;Beast;;14;Whenever you swipe an air chain, deal one damage to the enemy hero.
+M3R6208;Basilisk Eye;Uncommon;Earth;5{e};Action;None;;;Remove all bonuses and abilities from chosen troop.
+M3R6209;Burla Sigil;Uncommon;Earth;10{r};Action;Sigil;True;;Your hero gains +2 {ec}, +1 {wc} and  +1 {lc}.
+M3R6210;Tremor;Uncommon;Earth;10{r};Action;None;True;;Destroy all allied crystals in the bottom row.
+M3R6211;Korok, the Irascible;Uncommon;Earth;9{e};Troop;Hunter;;14;Whenever this is damaged, your hero gains +1 {ec}.
+M3R6212;Ralhara, Kennelmaster;Uncommon;Earth;7{e};Troop;Hunter;;7;When this enters the battlegrounds, you create a Tracker Hound in your hand.
+M3R6213;Mareola of the Birdsong;Uncommon;Earth;4{e};Troop;Hunter;;4;When this enters the battlegrounds, you create a random Bird from the Relegatia set in your hand.
+M3R6214;Okadra Silktouch;Uncommon;Earth;4{e};Troop;Hunter;;8;At the start of your turn, destroy all allied non-earth crystals in the bottom row.
+M3R6215;Donavan, Glory Hound;Uncommon;Earth;8{e};Troop;Hunter;;12;As long as an enemy troop died during your last turn, you can play this as a quick card.
+M3R6219;Running Boots;Uncommon;Earth;10{r};Action;None;True;;Turn chosen troop in your hand into a quick card.
+M3R6221;Devourer Plant;Uncommon;Earth;5{e};Troop;Plant;;10;
+M3R6222;Hyena;Uncommon;Earth;5{e};Troop;Beast;;10;
+M3R6223;Flickerhorn Buffalo;Uncommon;Earth;5{e};Troop;Beast;;10;
+M3R6224;Trilobite;Uncommon;Earth;5{e};Troop;None;;10;
+M3R6225;Ventus Inhibitor;Uncommon;Earth;8{e};Troop;Wall;;14;
+M3R6241;Old Sesser;Uncommon;Earth;8{e};Troop;Burla;;11;When this enters the battlegrounds, transform two random allied {e} into {E}.
+M3R6246;Xambr Miner;Uncommon;Earth;7{e};Troop;Xambr;;10;When this enters the battlegrounds, destroy all allied crystals in the bottom half.
+M3R6247;Slagsifter;Uncommon;Earth;5{e};Troop;Xambr;;9;At the start of your turn, destroy all allied {n} in the bottom row.
+M3R6301;Schmottilie;Rare;Earth;7{e};Troop;Hunter;;9;At the start of your turn, you create a Squirrel in your hand.
+M3R6302;Terra;Rare;Earth;10{e};Troop;None;;10;When this is destroyed, your hero gains +1 {e}.
+M3R6303;Martyr's Memorial;Rare;Earth;5{r};Action;None;True;;"Remove all bonuses and abilities from chosen allied troop. That troop gains ""At the start of your turn, you draw a card""."
+M3R6304;Champions Belt;Rare;Earth;8{e};Action;Armor;;;Chosen allied troop gains +15{h}. Double the bonus of that troop.
+M3R6305;Thorned Tortoise;Rare;Earth;12{e};Troop;Reptile;;20;Whenever this is damaged, deal three damage to the enemy hero.
+M3R6306;Basilisk;Rare;Earth;12{e};Troop;Reptile;;20;Whenever an other troop enters the battlegrounds, remove all bonuses and abilities from that troop.
+M3R6307;Chiseled Armor;Rare;Earth;20{r};Action;Armor;True;;Chosen allied troop gains +10{h}.
+M3R6308;Kaiser Beast;Rare;Earth;25{e};Troop;Beast;;30;At the start of your turn, deal four damage to all enemy troops.
+M3R6309;Mass Extinction;Rare;Earth;10{e};Action;None;;;Poison all troops for three damage per turn.
+M3R6310;Earthquake;Rare;Earth;20{r};Action;None;True;;Destroy all allied crystals in the bottom half.
+M3R6311;Maresh and Marukh;Rare;Earth;10{e};Troop;Hunter;;18;Double the bonus of all allied troops.
+M3R6312;Rietta, Master Archer;Rare;Earth;10{e};Troop;Hunter;;10;Whenever an enemy troop enters the battlegrounds, deal three damage to that troop.
+M3R6313;Thursiel, the Thunder-Scarred;Rare;Earth;9{e};Troop;Hunter;;15;At the start of your turn, destroy all allied air crystals.
+M3R6314;Flowergirl Aurette;Rare;Earth;5{e};Troop;Hunter;;8;At the start of your turn, transform a random allied {n} into {N}.
+M3R6315;Zeruklith, Master in Theory;Rare;Earth;5{e};Troop;Hunter;;9;Whenever you swipe an earth chain with 5 or more crystals, you draw a Hunter.
+M3R6316;Flintblade;Rare;Earth;15{r};Action;None;True;;Destroy all enemy air crystals.
+M3R6341;Sesser's Daughter;Rare;Earth;8{e};Troop;Burla;;8;Whenever an other allied Burla enters the battlegrounds, you draw a card.
+M3R6342;Linde, Greve of Silvertica;Rare;Earth;7{e};Troop;Burla;;13;Whenever your opponent draws a card from your deck, you draw a card from your opponent's deck.
+M3R6343;Ursus of Tannhain;Rare;Earth;9{e};Troop;Burla;;15;Whenever enemy troop is damaged by an earth chain, poison that troop for one damage per turn.
+M3R6401;Kalai;Exceptional;Earth;30{e};Troop;Dragon;;40;When this enters the battlegrounds, remove all bonuses and abilities from enemy troops.|At the start of your turn, transform all {N} into {E}.
+M3R6402;Ratunnara, Wild Goddess;Exceptional;Earth;21{e};Troop;GoddessOfHatred;;26;As long as this has 25 or less {h}, double the bonus of this.|As long as this has 15 or less {h}, double the bonus of this.|As long as this has 5 or less {h}, double the bonus of this.
+M3R6403;Machaon, War Healer;Exceptional;Earth;18{e};Troop;GodOfLife;;21;Whenever other allied troop or hero is damaged, heal 7 {h} from that .
+M3R6502;Forest Map;Secret;Earth;5{r};Action;Map;True;;You create a random earth troop from the Relegatia set in your hand.
+M3R6561;Pyroxene Shard;Secret;Earth;1{r};Action;None;True;;Transform a random allied {e} into {E}.
+M3R6562;Reptile Egg;Secret;Earth;9{r};Troop;Egg;True;9;Countdown 2|Whenever the countdown reaches zero, destroy this. You create a random Reptile from the Relegatia set in your hand.
+M3R6563;Shellegg Hauler;Secret;Earth;3{e};Troop;Reptile;;3;
+M3R6564;Turnip;Secret;Earth;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {ep}+200 {dp}. Heal 5 {h} from your hero.
+M3R6565;Onion;Secret;Earth;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {ep}+200 {wp}. Heal 5 {h} from your hero.
+M3R6566;Kiwi;Secret;Earth;7{r};Action;Fruit;True;;For this turn, your hero gains +200 {ep}+200 {ap}. Heal 5 {h} from your hero.
+M3R6567;Wildflower Gatheress;Secret;Earth;10{e};Troop;Hunter;;10;When this enters the battlegrounds, create an Emerald Rose in a random empty allied field.
+M3R6568;Sharecropper;Secret;Earth;9{e};Troop;Burla;;9;When this enters the battlegrounds, you create a random earth Fruit from the Relegatia set in your hand.
+M3R6569;Tree of Many;Secret;Earth;20{e};Troop;Plant;;30;At the start of your turn, you create a random Fruit from the Relegatia set in your hand.
+M3R6571;Hunting Hymn;Secret;Earth;15{r};Action;Song;True;;For this turn, your hero gains +300 {ep}, -1 {et} and  +3 {ec}.
+M3R7101;Pickaxe;Common;Rainbow;0{r};Action;None;True;;Destroy chosen allied crystal.
+M3R7102;Antidote;Common;Rainbow;5{r};Action;Potion;True;;Heal all poison from chosen troop.
+M3R7103;Healing Water;Common;Rainbow;3{r};Action;Potion;True;;Heal 5 {h} from chosen allied troop.
+M3R7104;Sword Dancer;Common;Rainbow;20{r};Troop;Lyrdhin;True;10;Whenever you swipe a chain, deal one damage to the enemy hero.
+M3R7105;Master Painter;Common;Rainbow;30{r};Troop;Lyrdhin;True;14;At the start of your turn, change the bonus of this to the next element.
+M3R7106;Monument;Common;Rainbow;15{r};Troop;Monument;True;8;When this enters the battlegrounds, the bonus of this becomes 2 {nc} of the last destroyed troop's element.
+M3R7107;Streethealer;Common;Rainbow;16{r};Troop;None;True;8;At the start of your turn, heal 2 {h} from your hero.
+M3R7108;Sweet Honey;Common;Rainbow;1{r};Action;None;True;;Heal 3 {h} from your hero.
+M3R7109;Prismapple;Uncommon;Rainbow;15{r};Action;Fruit;True;;For this turn, your hero gains -1 {lt}, -1 {dt}, -1 {ft}, -1 {wt}, -1 {at} and  -1 {et}.
+M3R7201;Charge Potion;Uncommon;Rainbow;0{r};Action;Potion;True;;Your hero gains 15 {r}.
+M3R7202;Healing Potion;Uncommon;Rainbow;15{r};Action;Potion;True;;Heal 10 {h} from chosen allied troop.
+M3R7203;Shovel;Uncommon;Rainbow;7{r};Action;None;True;;Destroy all crystals in chosen group of the same element.
+M3R7204;Stinking Rich Patron;Uncommon;Rainbow;60{r};Troop;Lyrdhin;True;15;Whenever you swipe a chain with 10 or more crystals, your hero gains 20 {r}.
+M3R7205;Many-Masked Mime;Uncommon;Rainbow;50{r};Troop;Lyrdhin;True;18;Whenever you play a card, change the bonus element of this to that card's element.
+M3R7206;Old Hope;Uncommon;Rainbow;20{r};Troop;Lyrdhin;True;8;The cost of Lyrdhin in your hand is reduced by 10.
+M3R7207;Rhymester of the Opera Infinita;Uncommon;Rainbow;40{r};Troop;Lyrdhin;True;13;At the start of your turn, if you have two neighboring rows that rhyme, you draw two cards.
+M3R7209;Lyrdhin Sigil;Uncommon;Rainbow;15{r};Action;Sigil;True;;Your hero gains +1 {lc}, +1 {dc}, +1 {fc}, +1 {wc}, +1 {ac} and  +1 {ec}.
+M3R7301;Regeneration Remedy;Rare;Rainbow;12{r};Action;Potion;True;;Chosen allied troop gains Healing 2.
+M3R7302;Master of the Six Arts;Rare;Rainbow;40{r};Troop;Lyrdhin;True;16;At the start of your turn, if you have a super crystal of each element, you draw a card.
+M3R7303;Skylha, Beloved Muse;Rare;Rainbow;50{r};Troop;Lyrdhin;True;14;At the start of your turn, transform all allied crystals so they rhyme with the top row.
+M3R7304;Cordelius Thousandsong;Rare;Rainbow;40{r};Troop;Lyrdhin;True;20;Must be chosen if possible.|
+M3R7305;Khadaka the Cliffcarver;Rare;Rainbow;30{r};Troop;Lyrdhin;True;12;Whenever an allied troop is destroyed, you create a Monument in your hand.
+M3R7306;Vivia, Stormangel;Rare;Rainbow;40{r};Troop;Lyrdhin;True;20;Whenever other allied troop or hero is damaged, this is damaged instead.
+M3R7307;Water of Lethe;Rare;Rainbow;20{r};Action;Potion;True;;Fully heal chosen troop. Remove all abilities from that troop.
+M3R7401;Blubellie;Exceptional;Rainbow;30{r};Troop;Bellie;True;15;At the start of your turn, if there are at least 3 allied Bellies, you win the game.
+M3R7402;Astral Elixir;Exceptional;Rainbow;30{r};Action;Potion;True;;Fully heal chosen allied troop.
+M3R7403;Titania, Virtuoso of Games;Exceptional;Rainbow;70{r};Troop;GoddessOfJoy;True;25;At the start of your turn, if there are no cards in your hand, you create a card of each element in your hand.
+M3R7404;Gola the Insatiable;Exceptional;Rainbow;40{r};Troop;GoddessOfSin;True;15;Countdown 7|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, you draw a card.
+M3R7405;Time Gate;Exceptional;Rainbow;10{r};Action;None;True;;You get an extra turn. Remove this from the game.
+M3R7501;I.R.I.A.D.H.I.S.;Secret;Rainbow;50{r};Troop;AI;True;12;At the start of your turn, add a random card  in your opponent's hand to the encounter rewards.
+M3R7502;Repliflecting Mirror;Secret;Rainbow;30{r};Action;None;True;;Remove this from the game. You create a copy of chosen card in your hand.
+M3R7561;Reforged Star;Secret;Rainbow;2{r};Action;None;True;;Transform two random allied {n} of your hero's elements into {N}.
+M3R7562;Egg Basket;Secret;Rainbow;8{r};Action;None;True;;You create two random Eggs from the Relegatia set in your hand.
+M3R7566;Anniversary Cake;Secret;Rainbow;10{r};Action;None;True;;Heal 10 {h} from all troops and heroes.
+M3R7568;Harvest Queen;Secret;Rainbow;40{r};Troop;Lyrdhin;;9;When this enters the battlegrounds, you create a random rose in your hand.|When this is destroyed, you create a random Fruit from the Relegatia set in your hand.
+M3R7571;Janus, Triangle Virtuoso;Secret;Rainbow;30{r};Troop;Lyrdhin;True;10;When this enters the battlegrounds, you create a random Song from the Relegatia set in your hand.

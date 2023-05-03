@@ -1,0 +1,93 @@
+// Use DBML to define your database structure
+// Docs: https://www.dbml.org/docs
+
+Table Encounter_Campaign {
+  id integer [pk]
+  hero integer
+  deck integer
+  type type_encounter //enum nicht sichtbar in Diagramm
+  level integer
+  experience_first integer
+  gold_first integer
+  card_reward1 integer [ref: > Cards.id]
+  card_reward2 integer [ref: > Cards.id]
+}
+
+enum type_encounter {
+  enc_type_1
+  enc_type_2
+  enc_type_3
+}
+
+Table Encounter_Random {
+  // erbt ("union") von Encounter_Campaign
+  experience_again integer
+  gold_again integer
+  condition integer [ref: - Encounter_Campaign.id]
+}
+
+Table Hero {
+  id integer [pk, ref: - Encounter_Campaign.hero]
+  level integer
+  name  varchar (50)
+  health integer
+  element1 varchar (50) [null, ref: - Elements.id_name]
+  element2 varchar (50) [null, ref: - Elements.id_name]
+  //Verknüpfungen nullable -> nicht sichtbar in Diagramm
+}
+
+Table Abilities {
+  id integer [pk]
+  content carchar (255)
+}
+
+Table Hero_Abilities {
+  hero integer [pk, ref: < Hero.id]
+  ability integer [pk, ref: < Abilities.id]
+}
+
+Table Elements {
+  id_char varchar (1) [pk]
+  id_name varchar (50) [unique]
+}
+
+Table Cards {
+  id integer [pk]
+  name varchar (50)
+  rarity rarity //enum nicht sichtbar in Diagramm
+  type type_cards //enum nicht sichtbar in Diagramm
+  subtype type_cards //enum nicht sichtbar in Diagramm
+  element integer [ref: - Elements.id_name]
+  quick bool
+  cost integer
+}
+
+Table Card_Abilities {
+  card integer [pk, ref: < Cards.id]
+  ability integer [pk, ref: < Abilities.id]
+}
+
+enum type_cards {
+  card_type_1
+  card_type_2
+  card_type_3
+}
+
+enum rarity {
+  rarity_1
+  rarity_2
+  rarity_3
+}
+
+Table Cards_Troop {
+  id integer [pk, ref: < Cards.id]
+  //Verknüpfung falsch: 0/1 Troop pro Card
+  health integer
+}
+
+Table Deck {
+  id integer [pk, ref: - Encounter_Campaign.deck]
+  hero integer [ref: - Hero.id]
+  card integer [pk, ref: <> Cards.id]
+  amount integer
+}

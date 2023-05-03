@@ -1,0 +1,117 @@
+ID;Name;Level;Element1;Element2;Health;Abilities
+#Generated 05.03.2023 16:06:32;;;;;;
+M3C_TUTORIAL_BLUBELLIE;Blubellie;1;Rainbow;None;70;
+M3C_TUTORIAL_STREETHEALER;Streethealer;1;Rainbow;None;20;0{r}, end your turn: Fully heal your hero.
+M3C_TUTORIAL_THALANA;Thalana, Master Illusionist;1;Water;None;40;0{r}, end your turn: Create an Illusion in all empty allied fields.
+M3C_CARAVAN_GUARD_1;Caravan Guard;1;Light;None;75;
+M3C_ASPIRANT_1;Obscura Aspirant;2;Darkness;None;80;
+M3C_VAPYRO_VANGUARD_1;Vapyro Vanguard;3;Fire;None;85;
+M3C_KEEPER_OF_ELAION_1;Keeper of Elaion;4;Water;None;90;
+M3C_CLOUDHERDER_1;Cloudherder;5;Air;None;95;
+M3C_BEASTHUNTER_1;Beasthunter;5;Earth;None;100;
+M3C_LIONESS_1;Lioness;6;Earth;None;120;
+M3C_BONUS_ROOM_1;Closing Door;1;Neutral;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, if there are no allied troops, you lose the game.
+M3C_AURA_1;Aura;10;Air;None;110;
+M3C_RORAX_1;Rorax;10;Earth;None;110;
+M3C_MARADIA_1;Mara'Dia;10;Light;None;110;
+M3C_SVARTELD_1;Svarteld;10;Darkness;None;110;
+M3C_NIMUEL_1;Nimuel;10;Fire;None;110;
+M3C_LEANA_1;Leana;10;Water;None;110;
+M3C_BONUS_ROOM_HEROES;Closing Door;10;Neutral;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, if there are no allied troops, you lose the game.
+M3C_NHUBI_VEHLIRA_SANDVEIL;Veh’Lira, Sandveil Mage;11;Light;None;110;
+M3C_NHUBI_SANGUINE_INITIATE;Sanguine Initiate;12;Light;None;130;If there are at least 7 cards in your hand, your hero deals double damage.
+M3C_NHUBI_SNAKECATCHER;Snakecatcher;13;Light;None;150;30{r}, end your turn: Create a random Snake from the Relegatia set in a random empty allied field.
+M3C_NHUBI_LIFEWEAVER;Lifeweaver;14;Light;None;80;Whenever a card is played by anyone, heal 1 {h} from that player's hero for each card in that player's hand.
+M3C_NHUBI_AZHALEA;Azh'Alea, Archangel;15;Light;None;160;Whenever you create one or more {L}, deal two damage to all non-light troops.
+M3C_NHUBI_AZHRATHMA;Azh’Rathma, Matriarch;15;Light;None;150;Double the bonus of all allied Nhubi'Reg.
+M3C_NHUBI_SANDWORM;Sandworm;16;Light;None;175;Whenever you swipe a light chain, change the element of three random allied non-light crystals to light.
+M3C_BONUS_ROOM_NHUBI;Trade Caravan;1;Light;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C_OBSCURA_OVERWORLD_SMUGGLER;Overworld Smuggler;16;Darkness;None;150;Whenever any player draws a card, they draw from their opponent's deck.
+M3C_OBSCURA_UNDERSEA_FISHER;Undersea Fisher;17;Darkness;None;160;Whenever any player draws a card, they draw from the bottom of the deck.
+M3C_OBSCURA_GUARDIAN_OF_STYX;Guardian of Styx;18;Darkness;None;170;Whenever an enemy troop enters the battlegrounds, destroy that troop. Deal one damage to this for each  {h} of that troop.
+M3C_OBSCURA_LAST_PILGRIM;Last Pilgrim;19;Darkness;None;170;Whenever your opponent discards a card, you draw a card from the bottom of your opponent's deck.
+M3C_OBSCURA_MELINE;Meline, Daughter of Darkness;20;Darkness;None;100;
+M3C_OBSCURA_OUROBOROS;Ouroboros;21;Darkness;None;160;Whenever you swipe a darkness chain, your hero gains +1 {dc}.
+M3C_BONUS_ROOM_OBSCURA;Underground Labyrinth;1;Darkness;None;999;Countdown 12|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged, put all allied troops on the bottom of their owner's deck. Put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field.
+M3C_VAPYRO_SMOLDERREEF_CORSAIR;Smolderreef Corsair;21;Fire;None;140;Whenever an enemy troop enters the battlegrounds, deal three damage to that troop.
+M3C_VAPYRO_IKAIO_CALDERA_FISHER;Ikaio, Caldera Fisher;22;Fire;None;160;Whenever you play an action, transform a random allied {f} into {F}.
+M3C_VAPYRO_KAILANI_SHIPWRIGHT;Kailani, Aeon Shipwright;23;Fire;None;150;Whenever any player swipes a non-fire chain, destroy all crystals of that chain's element of that player.
+M3C_VAPYRO_AOLA_FLAMEDANCER;Aola, Flamedancer;24;Fire;None;150;At the start of your turn, your hero gains +20 {fp}.
+M3C_VAPYRO_MALO_SOVEREIGN;Malo, Sovereign of Solsed;25;Fire;None;120;Whenever you play an action, you draw a Vapyro.|Whenever you play a Vapyro, you draw an action.
+M3C_VAPYRO_HYDRA;Hydra;26;Fire;None;170;Whenever this is damaged, your hero gains +1 {fc}.
+M3C_BONUS_ROOM_VAPYRO;Erupting Volcano;1;Fire;None;999;At the start of your turn, deal ten damage to all troops and heroes.|Whenever this is damaged by a fire chain, create a Volcanic Cache in a random empty allied field.|Whenever this is damaged by a water chain, you lose the game.
+M3C_MERFOLK_WELLSPRING_HEALER;Wellspring Healer;26;Water;None;150;At the start of your turn, heal 2 {h} from all allied troops.
+M3C_MERFOLK_GLOWFISH_TAMER;Glowfish Tamer;27;Water;None;160;30{r}, end your turn: Create a random Fish from the Relegatia set in a random empty allied field.
+M3C_MERFOLK_SIRENIA;Sirenia;28;Water;None;180;Your opponent can't play troops.
+M3C_MERFOLK_ENDYMEAS;Endymeas the Traitor;29;Water;None;200;At the start of your turn, destroy chosen allied troop. You draw a card.|At the start of your opponent's turn, destroy an enemy troop chosen by your opponent. Your opponent draws a card.
+M3C_MERFOLK_RUBINIA_REDFIN;Rubinia Redfin;30;Water;None;200;The cost of Merfolk in your hand is reduced by 2.|Whenever you play a Merfolk, your hero gains +1 {wc}.
+M3C_MERFOLK_KRAKEN;Kraken;31;Water;None;88;You can't gain charge.
+M3C_BONUS_ROOM_MERFOLK;Fishing Pond;1;Water;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged, create a random Fish from the Relegatia set in a random empty allied field.|Whenever an allied troop is destroyed, add that troop to the encounter rewards.
+M3C_SKYFOLK_SOUTHERN_GUARDIAN;Southern Guardian;31;Air;None;170;At the start of your opponent's turn, destroy all crystals in the top row.
+M3C_SKYFOLK_MOUNTAINROOT_TRADER;Mountainroot Trader;32;Air;None;160;At the start of your turn, if there is a card in your hand, you draw a card. You discard chosen card.|At the start of your opponent's turn, if there is a card  in your opponent's hand, your opponent draws a card. Your opponent discards a card of their choice.
+M3C_SKYFOLK_THORNLAYER;Thornlayer;33;Air;None;150;Whenever this is dealt at least 10 damage, create a Caltrops in a random empty allied field.
+M3C_SKYFOLK_IRSIA;Irsia of the Rainbow;34;Air;None;200;At the start of your turn, transform a random allied crystal without a super crystal of the same element into {N}.|At the start of your opponent's turn, transform a random enemy crystal without a super crystal of the same element into {N}.
+M3C_SKYFOLK_RHUFHUR;Rhufhur, First to Fall;35;Air;None;200;At the start of your first turn, reverse gravity.|At the start of your 14th turn, reverse gravity.|At the start of your 15th turn, create an Ianthe, Evening's Herald in a random empty allied field.
+M3C_SKYFOLK_PTERODACTYL;Pterodactyl;36;Air;None;200;Whenever an enemy troop enters the battlegrounds, deal four damage to that troop.
+M3C_BONUS_ROOM_SKYFOLK;Mountainroot Bazaar;1;Air;None;999;Countdown 6|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put all allied troops on the bottom of their owner's deck. Put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field. Put a random allied troop in the Deck on a random empty allied field. The {h} of all allied troops becomes five.
+M3C_HUNTERS_OKADRA;Okadra Silktouch;36;Earth;None;170;At the start of your turn, destroy all allied non-earth crystals in the bottom row.|At the start of your opponent's turn, destroy all enemy non-earth crystals in the bottom row.
+M3C_HUNTERS_MARESH_MARUKH;Maresh and Marukh;37;Earth;None;100;At the start of your opponent's turn, you get an extra turn.
+M3C_HUNTERS_MAREOLA;Mareola of the Birdsong;38;Earth;None;190;20{r}, end your turn: Create a random Bird from the Relegatia set in a random empty allied field.
+M3C_HUNTERS_AURETTE;Flowergirl Aurette;39;Earth;None;180;At the start of your turn, transform a random allied {n} into {N}.
+M3C_HUNTERS_SCHMOTTILIE;Schmottilie;40;Earth;None;100;At the start of your turn, create a Squirrel in a random empty allied field.
+M3C_HUNTERS_KAISER_BEAST;Kaiser Beast;41;Earth;None;200;
+M3C_BONUS_ROOM_HUNTERS;Hunting Grounds;1;Earth;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, create a random Beast from the Relegatia set in a random empty allied field.|Whenever an allied troop is destroyed, add that troop to the encounter rewards.
+M3C_BURLA_PHALANX;Burla Phalanx;41;Light;None;160;Whenever this is damaged, heal 2 {h} from this.
+M3C_BURLA_KEREN;Keren, Growthmage;42;Light;None;180;At the start of your turn, transform all allied {e} neighboring a water crystal and a light crystal into {E}.
+M3C_BURLA_SESSERS_DAUGHTER;Sesser's Daughter;43;Earth;None;200;Whenever an allied Burla enters the battlegrounds, you draw a card.
+M3C_BURLA_LOGGER;Logger from Tannhain;44;Earth;None;220;Whenever any player swipes a chain, transform a random {n} of that chain's element of that player into {N}.
+M3C_BURLA_LINDE;Linde, Greve of Silvertica;45;Earth;None;150;Whenever your opponent draws a card, you draw a card.
+M3C_BONUS_ROOM_BURLA;Burla Farmstead;1;Earth;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C_VANTU_STOIC_ASSASSIN;Stoic Assassin;46;Darkness;None;200;30{r}, end your turn: Destroy chosen enemy troop.
+M3C_VANTU_SPY;Vantu Spy Form;47;Darkness;None;200;Whenever a card is played by anyone, you steal a random card  in your opponent's hand.|At the start of your turn, if there are no cards in your opponent's hand, this changes to Vantu Diplomat.
+M3C_VANTU_POTION_BREWER;Potion Brewer;48;Water;None;220;15{r}: You create a random Potion from the Relegatia set in your hand.
+M3C_VANTU_RAZIELA;Raziela, Hidden Consort;49;Light;None;180;"As long as there is an allied troop, this gains ""Can't be damaged""."
+M3C_VANTU_MISTRESS_OF_SECRETS;Mistress of Secrets;50;Water;None;143;Stats are hidden.|
+M3C_BONUS_ROOM_VANTU;Mirror Gallery;2;Light;None;999;At the start of your turn, if there are no allied troops, you lose the game.
+M3C_XAMBR_MINER;Xambr Miner;51;Earth;None;220;At the start of your turn, destroy all allied crystals in the bottom half.|At the start of your opponent's turn, destroy all enemy crystals in the bottom half.
+M3C_XAMBR_CORE_SAPPER;Core Sapper;52;Darkness;None;230;"Whenever you play an action, steal 10 {r} from your opponent.|At the start of your first turn, the enemy hero gains ""Whenever you play an action, steal 10 {r} from your opponent""."
+M3C_XAMBR_CHARCOAL_BURNER;Charcoal Burner;53;Fire;None;175;At the start of your opponent's turn, transform all allied {e} into {f}.|At the start of your turn, transform all allied {f} into {d}.
+M3C_XAMBR_ELECTRA;Electra, Core-Master;54;Darkness;None;250;All players gain double charge.
+M3C_XAMBR_CORE;The Core;55;Darkness;None;500;At the start of your turn, if you have at least 400 {r}, you win the game.|0{r}, end your turn: Destroy all allied {n}. If there are no cards in your hand, you draw a card. Otherwise, your hero gains 10 {r}.
+M3C_BONUS_ROOM_XAMBR;Xambr Mine;1;Earth;None;999;Countdown 15|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged by a light chain, create a Gold Vein in a random empty allied field.|Whenever this is damaged by a darkness chain, create a Silver Vein in a random empty allied field.|Whenever this is damaged by a fire chain, create a Demolition Bomb in a random empty allied field.|Whenever this is damaged by a water chain, create an Underground Wash in a random empty allied field.|Whenever this is damaged by an air chain, create a Crystal Vein in a random empty allied field.|Whenever this is damaged by an earth chain, create a Copper Vein in a random empty allied field.
+M3C_RATHOS_FIRSTBORN;Rathos Firstborn;56;Fire;None;240;"Whenever a troop enters the battlegrounds, that troop gains ""At the start of your turn, deal one damage to the opposite troop or hero for each its attack bonus""."
+M3C_RATHOS_SHULA;Shula, Mistress of the Blue Flame;57;Fire;None;300;At the start of your turn, change all allied {n} to the opposite element.|At the start of your opponent's turn, change all enemy {n} to the opposite element.
+M3C_RATHOS_SPURRER;Spurrer from Schleif;58;Air;None;275;Whenever a troop enters the battlegrounds, deal three damage to that troop. Double the bonus of that troop.
+M3C_RATHOS_ASHESSA_VALKYRE;Ashessa, First Valkyrie;59;Fire;None;300;Whenever you swipe a chain, destroy all enemy {n} of that chain's element.|Whenever your opponent swipes a chain, destroy all allied {n} of that chain's element.
+M3C_RATHOS_CADMAEL;Cadmael, First of Firsts;60;Fire;None;175;"At the start of your turn, deal one damage to the enemy hero for each its attack bonus.|At the start of your first turn, the enemy hero gains ""At the start of your turn, deal one damage to the enemy hero for each its attack bonus""."
+M3C_BONUS_ROOM_RATHOS;Rathos Armory;1;Earth;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C_LETHE_WATERMASTER;Watermaster of Lethe;61;Light;None;260;Whenever a troop enters the battlegrounds, remove all abilities from that troop.
+M3C_LETHE_AOLA;Aola, Dreaming of Flight;62;Air;None;270;At the start of any player's turn, reverse gravity for that player.
+M3C_LETHE_LIGHTNING_CHANNELER;Lightning Channeler;63;Fire;None;300;You can play cards as quick cards.
+M3C_LETHE_VANOS_CONDEMNED;Vanos, Condemned Healer;64;Fire;None;400;Poisoned 4|At the start of your turn, fully heal all allied troops.
+M3C_LETHE_ASMYR_VENOMASTER;Asmyr, Venomaster;65;Light;None;200;At the start of your turn, heal 2 {h} from all allied troops.|Whenever an enemy troop enters the battlegrounds, poison that troop for two damage per turn.
+M3C_BONUS_ROOM_LETHE;Treasure Hoard;1;Neutral;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|Whenever this is damaged, add 50 gold for each  damage dealt to the encounter rewards.
+M3C_FARDAL_STORMGUIDE;Stormguide;66;Water;None;280;The cost of cards is reduced by 3.
+M3C_FARDAL_TOLLKEEPER;Tollkeeper of Stormbreak;67;Air;None;270;Whenever a card is played by anyone, steal 5 {r} from your opponent.
+M3C_FARDAL_HARBORMASTER;Harbormaster of Stormbreak;68;Air;None;333;At the start of your turn, all players draw a card.
+M3C_FARDAL_RADUMIR;Radumir the Destroyer;69;Darkness;None;250;Whenever you draw a card from your opponent's deck, destroy a random enemy troop.
+M3C_FARDAL_DRAGUTIN;Dragutin the Plunderer;70;Darkness;None;250;Whenever an enemy troop is destroyed, you draw a card from your opponent's deck.
+M3C_BONUS_ROOM_FARDAL;Capsized Trade Ship;1;Water;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, put a random allied troop in the Deck on a random empty allied field.
+M3C_LYRDHIN_MASTER_OF_SIX_ARTS;Master of the Six Arts;71;Rainbow;None;300;At the start of your turn, if you have a super crystal of each element, you win the game.
+M3C_LYRDHIN_MANY_MASKED_MIME;Many-Masked Mime;72;Rainbow;None;300;Whenever you play a card, change the bonus element of all troops to that card's element.|Allied troops gain +5{h}.
+M3C_LYRDHIN_VIVIA;Vivia, Stormangel;73;Rainbow;None;400;Whenever allied troop is damaged, this is damaged instead.
+M3C_LYRDHIN_OLD_HOPE;Old Hope;74;Rainbow;None;350;The cost of Lyrdhin is reduced by 20.
+M3C_LYRDHIN_SKYLHA;Skylha, Beloved Muse;75;Rainbow;None;350;At the start of your turn, transform all allied crystals so they rhyme with the top row.
+M3C_BONUS_ROOM_LYRDHIN;Lyrdhin Fairground;1;Rainbow;None;999;Countdown 10|Whenever the countdown reaches zero, you lose the game.
+M3C_FINAL_BLUBELLIE;Blubellie;75;Rainbow;None;400;At the start of your first turn, your hero gains 20 {r}.|The cost of Bellies is reduced by 20.|Allied Bellies gain +10{h}.
+M3C_FINAL_DRAGON_PERUN;Perun;76;Air;Fire;500;Countdown 5|Whenever the countdown reaches zero, reverse the bonus of all enemy troops. Deal three damage to all these troops. Reset the countdown.
+M3C_FINAL_DRAGON_VULDER;Vulder;77;Water;Darkness;500;Countdown 7|Whenever the countdown reaches zero, remove all bonuses and abilities from enemy troops. Reset the countdown.
+M3C_FINAL_DRAGON_AKAR;Akar;78;Earth;Light;500;Countdown 7|Whenever the countdown reaches zero, poison all enemy troops for two damage per turn. Reset the countdown.
+M3C_FINAL_GOD_TITANIA;Titania, Virtuoso of Games;79;Rainbow;None;350;At the start of your turn, if there are no cards in your hand, you create a card of each element in your hand.|10{r}: You discard a random card. You create a random card from the Relegatia set in your hand.
+M3C_FINAL_GOD_KARA;Empress Kara;80;Light;None;350;Whenever a non-light troop enters the battlegrounds, destroy that troop.
+M3C_FINAL_GOD_GOLA;Gola the Insatiable;81;Rainbow;None;999;Countdown 14|Whenever the countdown reaches zero, you lose the game.|At the start of your turn, you draw a card.
+M3C_FINAL_GOD_MACHAON;Machaon, War Healer;82;Earth;None;375;Whenever allied troop is damaged, heal 7 {h} from that .|Allied troops gain +7{h}.
+M3C_FINAL_GOD_ATHARIEL;Athariel, Seeking Reversal;82;Water;None;300;Whenever you swipe a chain with 10 or more crystals, you get an extra turn.
+M3C_FINAL_GOD_ITHYMIA;Ithymia, Burning Within;83;Fire;None;350;Allied actions deal double damage.
+M3C_FINAL_GOD_TORMENTOR;Tormentor, the Scarred God;84;Air;None;200;Whenever this is damaged by a crystal chain, deal one damage to the enemy hero for each  damage dealt.
+M3C_FINAL_GOD_ATERIOTH;Aterioth - Banished in Crystal;85;Darkness;None;500;Countdown 5|Whenever the countdown reaches zero, reset the countdown. This changes to Attack Stance.

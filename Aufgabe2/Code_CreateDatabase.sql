@@ -27,12 +27,11 @@ CREATE TABLE IF NOT EXISTS `Hero` (
   `name` varchar(75),
   `health` integer,
   `FK_element1` varchar(75),
-  `FK_element2` varchar(75),
-  FOREIGN KEY (`PK_id`) REFERENCES `Encounter_Campaign` (`FK_hero`)
+  `FK_element2` varchar(75)
 );
 
 CREATE TABLE IF NOT EXISTS `Abilities` (
-  `PK_id` integer PRIMARY KEY,
+  `PK_id` integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `content` varchar(255)
 );
 
@@ -73,40 +72,31 @@ CREATE TABLE IF NOT EXISTS `Cards_Troop` (
 
 CREATE TABLE IF NOT EXISTS `Deck` (
   `PK_id` varchar(50),
-  `PK_FK_hero` varchar(50),
   `PK_FK_card` varchar(50),
   `amount` integer,
-  PRIMARY KEY (`PK_id`, `PK_FK_hero`, `PK_FK_card`),
-  FOREIGN KEY (`PK_FK_card`) REFERENCES `Cards` (`PK_id`),
+  PRIMARY KEY (`PK_id`, `PK_FK_card`),
   INDEX idx_PK_FK_card (PK_FK_card)
 );
 
+ALTER TABLE `Encounter_Campaign` ADD FOREIGN KEY (`FK_hero`) REFERENCES `Hero` (`PK_id`);
+ALTER TABLE `Encounter_Campaign` ADD FOREIGN KEY (`FK_deck`) REFERENCES `Deck` (`PK_id`);
 ALTER TABLE `Encounter_Campaign` ADD FOREIGN KEY (`FK_card_reward1`) REFERENCES `Cards` (`PK_id`);
-
 ALTER TABLE `Encounter_Campaign` ADD FOREIGN KEY (`FK_card_reward2`) REFERENCES `Cards` (`PK_id`);
 
 ALTER TABLE `Encounter_Random` ADD FOREIGN KEY (`PK_FK_id`) REFERENCES `Encounter_Campaign` (`PK_id`);
-
 ALTER TABLE `Encounter_Random` ADD FOREIGN KEY (`FK_condition`) REFERENCES `Encounter_Campaign` (`PK_id`);
 
-ALTER TABLE `Encounter_Campaign` ADD FOREIGN KEY (`FK_hero`) REFERENCES `Hero` (`PK_id`);
-
 ALTER TABLE `Hero` ADD FOREIGN KEY (`FK_element1`) REFERENCES `Elements` (`id_name`);
-
 ALTER TABLE `Hero` ADD FOREIGN KEY (`FK_element2`) REFERENCES `Elements` (`id_name`);
 
 ALTER TABLE `Hero_Abilities` ADD FOREIGN KEY (`PK_FK_hero`) REFERENCES `Hero` (`PK_id`);
-
 ALTER TABLE `Hero_Abilities` ADD FOREIGN KEY (`PK_FK_ability`) REFERENCES `Abilities` (`PK_id`);
 
 ALTER TABLE `Cards` ADD FOREIGN KEY (`FK_element`) REFERENCES `Elements` (`PK_id_char`);
 
-ALTER TABLE `Card_Abilities` ADD FOREIGN KEY (`PK_FK_Card`) REFERENCES `Cards` (`PK_id`);
-
+ALTER TABLE `Card_Abilities` ADD FOREIGN KEY (`PK_FK_card`) REFERENCES `Cards` (`PK_id`);
 ALTER TABLE `Card_Abilities` ADD FOREIGN KEY (`PK_FK_ability`) REFERENCES `Abilities` (`PK_id`);
 
 ALTER TABLE `Cards_Troop` ADD FOREIGN KEY (`PK_id`) REFERENCES `Cards` (`PK_id`);
 
-ALTER TABLE `Deck` ADD FOREIGN KEY (`PK_id`) REFERENCES `Encounter_Campaign` (`FK_deck`);
-
-ALTER TABLE `Deck` ADD FOREIGN KEY (`PK_FK_hero`) REFERENCES `Hero` (`PK_id`);
+ALTER TABLE `Deck` ADD FOREIGN KEY (`PK_FK_card`) REFERENCES `Cards` (`PK_id`);

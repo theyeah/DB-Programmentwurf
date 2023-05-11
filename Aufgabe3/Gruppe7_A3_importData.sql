@@ -91,10 +91,6 @@ IGNORE 2 LINES
 (@ID, @CardID, @Amount)
 SET PK_id = @ID, PK_FK_card = @CardID, amount = @Amount;
 
-# remove datasets where DeckID and/or CardID is missing
-DELETE FROM deck
-WHERE PK_id = "";
-
 
 # import encounter data from "encounter_campaign.csv"
 LOAD DATA LOCAL INFILE "C:/Users/hofmannfl/source/repos/DH-Studium/Sem4_Datenbanken/Aufgabenstellung/encounter_campaign.csv"

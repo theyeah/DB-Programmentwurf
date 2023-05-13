@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `Hero` (
 
 CREATE TABLE IF NOT EXISTS `Abilities` (
   `PK_id` integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `content` varchar(255)
+  `content` varchar(255) UNIQUE
 );
 
 CREATE TABLE IF NOT EXISTS `Hero_Abilities` (

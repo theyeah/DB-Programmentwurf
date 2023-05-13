@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS tmp_cards_cardstroop(	# temporary table for distingui
   `FK_element` varchar(1),
   `quick` bool,
   `cost` integer,
-  `health` integer);
+  `health` integer
+  );
 
 # load cards + cards_troop data to temporary table from "karten.csv"
 LOAD DATA LOCAL INFILE "C:/Users/hofmannfl/source/repos/DH-Studium/Sem4_Datenbanken/Aufgabenstellung/karten.csv"
@@ -91,6 +92,10 @@ IGNORE 2 LINES
 (@ID, @CardID, @Amount)
 SET PK_id = @ID, PK_FK_card = @CardID, amount = @Amount;
 
+# remove datasets where DeckID and/or CardID is missing
+DELETE FROM deck
+WHERE PK_id = "";
+
 
 # import encounter data from "encounter_campaign.csv"
 LOAD DATA LOCAL INFILE "C:/Users/hofmannfl/source/repos/DH-Studium/Sem4_Datenbanken/Aufgabenstellung/encounter_campaign.csv"
@@ -122,3 +127,394 @@ LINES TERMINATED BY '\r\n'
 IGNORE 2 LINES
 (@ID, @Condition, @ExpFirst, @GoldFirst, @CardReward1, @CardReward2, @ExpRepeat, @GoldRepeat, @DecklistID, @HeroID)
 SET PK_FK_id = @ID, experience_again = @ExpRepeat, gold_again=@GoldRepeat, FK_condition = nullif(@Condition, "");
+
+
+# import abilities from "karten.csv" and hero_x.csv":
+# first import all abilites of cards to temporary table with card id
+# split single abilities field to n rows
+# move data to abilities table with autoID and unique abilities.content
+# connect cardID with abilities in card_abilities table via info from temporary table
+# do similar steps for heros
+
+CREATE TABLE IF NOT EXISTS tmp_cards_abilities(	# temporary table for distinguishing abilities
+  `card_id` varchar(50) PRIMARY KEY,
+  `abilities` varchar(1000)
+  );
+
+LOAD DATA LOCAL INFILE "C:/Users/hofmannfl/source/repos/DH-Studium/Sem4_Datenbanken/Aufgabenstellung/karten.csv"
+INTO TABLE tmp_cards_abilities
+CHARACTER SET latin1
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\r\n'
+IGNORE 2 LINES
+(@ID, @Name, @Rarity, @Element, @Cost, @Type, @Subtype, @Quick, @Health, @Abilities)
+SET card_id = @ID, abilities = trim(@Abilities);
+
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE  FROM tmp_cards_abilities
+WHERE length(abilities) < 5;
+
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability (card_id, ability, abilities)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE trim(abilities) END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_cards_abilities;
+
+
+-- "loop" start = "iteration" 0
+
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability2(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability2 (card_id, ability)
+SELECT card_id, ability
+FROM tmp_cards_singleability;
+
+INSERT INTO tmp_cards_singleability2 (card_id, ability, abilities)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_cards_singleability
+WHERE length(abilities) > 5;
+
+
+-- "iteration 1"
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability3(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability3 (card_id, ability)
+SELECT card_id, ability
+FROM tmp_cards_singleability2;
+
+INSERT INTO tmp_cards_singleability3 (card_id, ability, abilities)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        WHEN length(abilities) > 3 THEN abilities
+        ELSE "1" END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_cards_singleability2
+WHERE length(abilities) > 5;
+
+
+-- "iteration 2"
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability4(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability4 (card_id, ability)
+SELECT card_id, ability
+FROM tmp_cards_singleability3;
+
+INSERT INTO tmp_cards_singleability4 (card_id, ability, abilities)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_cards_singleability3
+WHERE length(abilities) > 5;
+
+-- "iteration 3"
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability5(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability5 (card_id, ability)
+SELECT card_id, ability
+FROM tmp_cards_singleability4;
+
+INSERT INTO tmp_cards_singleability5 (card_id, ability, abilities)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_cards_singleability4
+WHERE length(abilities) > 5;
+
+-- "iteration 4"
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability6(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability6 (card_id, ability)
+SELECT card_id, ability
+FROM tmp_cards_singleability5;
+
+INSERT INTO tmp_cards_singleability6 (card_id, ability, abilities)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_cards_singleability5
+WHERE length(abilities) > 5;
+
+-- "iteration 5"
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability7(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability7 (card_id, ability)
+SELECT card_id, ability
+FROM tmp_cards_singleability6;
+
+INSERT INTO tmp_cards_singleability7 (card_id, ability, abilities)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_cards_singleability6
+WHERE length(abilities) > 5;
+
+-- "iteration 6"
+CREATE TABLE IF NOT EXISTS tmp_cards_singleability8(	# temporary table for distinguishing abilities
+  `card_id` varchar(50),
+  `ability` varchar(500),
+   PRIMARY KEY (`card_id`, `ability`)
+  );
+
+INSERT INTO tmp_cards_singleability8 (card_id, ability)
+SELECT card_id, ability
+FROM tmp_cards_singleability7;
+
+INSERT INTO tmp_cards_singleability8 (card_id, ability)
+SELECT	card_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END
+FROM   tmp_cards_singleability7
+WHERE length(abilities) > 5;
+
+-- "loop" end
+
+INSERT INTO abilities (content)
+SELECT distinct ability
+FROM tmp_cards_singleability;
+
+
+
+
+CREATE TABLE IF NOT EXISTS tmp_heroes_abilities(	# temporary table for distinguishing abilities
+  `hero_id` varchar(50) PRIMARY KEY,
+  `abilities` varchar(1000)
+  );
+
+LOAD DATA LOCAL INFILE "C:/Users/hofmannfl/source/repos/DH-Studium/Sem4_Datenbanken/Aufgabenstellung/hero_random.csv"
+INTO TABLE tmp_heroes_abilities
+CHARACTER SET latin1
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\r\n'
+IGNORE 2 LINES
+(@ID, @Name, @Level, @Element1, @Element2, @Health, @Abilities)
+SET hero_id = @ID, abilities = trim(@Abilities);
+
+LOAD DATA LOCAL INFILE "C:/Users/hofmannfl/source/repos/DH-Studium/Sem4_Datenbanken/Aufgabenstellung/hero_campaign.csv"
+INTO TABLE tmp_heroes_abilities
+CHARACTER SET latin1
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\r\n'
+IGNORE 2 LINES
+(@ID, @Name, @Level, @Element1, @Element2, @Health, @Abilities)
+SET hero_id = @ID, abilities = trim(@Abilities);
+
+DELETE  FROM tmp_heroes_abilities
+WHERE length(abilities) < 5;
+
+CREATE TABLE IF NOT EXISTS tmp_heroes_singleability(	# temporary table for distinguishing abilities
+  `hero_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`hero_id`, `ability`)
+  );
+
+INSERT INTO tmp_heroes_singleability (hero_id, ability, abilities)
+SELECT	hero_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE trim(abilities) END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_heroes_abilities;
+
+
+-- "loop" start = "iteration" 0
+
+CREATE TABLE IF NOT EXISTS tmp_heroes_singleability2(	# temporary table for distinguishing abilities
+  `hero_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`hero_id`, `ability`)
+  );
+
+INSERT INTO tmp_heroes_singleability2 (hero_id, ability)
+SELECT hero_id, ability
+FROM tmp_heroes_singleability;
+
+INSERT INTO tmp_heroes_singleability2 (hero_id, ability, abilities)
+SELECT	hero_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_heroes_singleability
+WHERE length(abilities) > 5;
+
+
+-- "iteration 1"
+CREATE TABLE IF NOT EXISTS tmp_heroes_singleability3(	# temporary table for distinguishing abilities
+  `hero_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`hero_id`, `ability`)
+  );
+
+INSERT INTO tmp_heroes_singleability3 (hero_id, ability)
+SELECT hero_id, ability
+FROM tmp_heroes_singleability2;
+
+INSERT INTO tmp_heroes_singleability3 (hero_id, ability, abilities)
+SELECT	hero_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        WHEN length(abilities) > 3 THEN abilities
+        ELSE "1" END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_heroes_singleability2
+WHERE length(abilities) > 5;
+
+
+-- "iteration 2"
+CREATE TABLE IF NOT EXISTS tmp_heroes_singleability4(	# temporary table for distinguishing abilities
+  `hero_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`hero_id`, `ability`)
+  );
+
+INSERT INTO tmp_heroes_singleability4 (hero_id, ability)
+SELECT hero_id, ability
+FROM tmp_heroes_singleability3;
+
+INSERT INTO tmp_heroes_singleability4 (hero_id, ability, abilities)
+SELECT	hero_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_heroes_singleability3
+WHERE length(abilities) > 5;
+
+-- "iteration 3"
+CREATE TABLE IF NOT EXISTS tmp_heroes_singleability5(	# temporary table for distinguishing abilities
+  `hero_id` varchar(50),
+  `ability` varchar(500),
+  `abilities` varchar (1000),
+   PRIMARY KEY (`hero_id`, `ability`)
+  );
+
+INSERT INTO tmp_heroes_singleability5 (hero_id, ability)
+SELECT hero_id, ability
+FROM tmp_heroes_singleability4;
+
+INSERT INTO tmp_heroes_singleability5 (hero_id, ability, abilities)
+SELECT	hero_id,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, 1, position('|' in abilities) - 1))
+        ELSE abilities END,
+	CASE
+		WHEN instr(abilities, '|') > 0 THEN trim(substring(abilities, position('|' in abilities) + 1))
+		ELSE null END
+FROM   tmp_heroes_singleability4
+WHERE length(abilities) > 5;
+
+-- "loop" end
+
+INSERT IGNORE INTO abilities (content)	#ignore duplicate entries
+SELECT distinct ability
+FROM tmp_heroes_singleability5;
+
+
+
+# assign abilities to cards & heros
+INSERT INTO card_abilities
+SELECT card_id, PK_id
+FROM tmp_cards_singleability8 TMP JOIN abilities A on TMP.ability = A.content;
+
+INSERT INTO hero_abilities
+SELECT hero_id, PK_id
+FROM tmp_heroes_singleability5 TMP JOIN abilities A on TMP.ability = A.content;
+
+
+
+DROP TABLE tmp_cards_abilities;	# drop temporary table
+DROP TABLE tmp_cards_singleability;	# drop temporary table
+DROP TABLE tmp_cards_singleability2;	# drop temporary table
+DROP TABLE tmp_cards_singleability3;	# drop temporary table
+DROP TABLE tmp_cards_singleability4;	# drop temporary table
+DROP TABLE tmp_cards_singleability5;	# drop temporary table
+DROP TABLE tmp_cards_singleability6;	# drop temporary table
+DROP TABLE tmp_cards_singleability7;	# drop temporary table
+DROP TABLE tmp_cards_singleability8;	# drop temporary table
+
+DROP TABLE tmp_heroes_abilities;	# drop temporary table
+DROP TABLE tmp_heroes_singleability;	# drop temporary table
+DROP TABLE tmp_heroes_singleability2;	# drop temporary table
+DROP TABLE tmp_heroes_singleability3;	# drop temporary table
+DROP TABLE tmp_heroes_singleability4;	# drop temporary table
+DROP TABLE tmp_heroes_singleability5;	# drop temporary table

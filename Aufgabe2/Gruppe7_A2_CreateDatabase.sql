@@ -6,7 +6,6 @@ CREATE TABLE IF NOT EXISTS `Encounter_Campaign` (
   `PK_id` varchar(50) PRIMARY KEY,
   `FK_hero` varchar(50),
   `FK_deck` varchar(50),
-  `level` integer,
   `experience_first` integer,
   `gold_first` integer,
   `FK_card_reward1` varchar(50),

@@ -23,7 +23,6 @@ LINES TERMINATED BY '\r\n'
 IGNORE 2 LINES
 (@ID, @Name, @Level, @Element1, @Element2, @Health, @Abilities)
 SET PK_id = @ID, level = @Level, name = @Name, health = @Health, FK_element1 = nullif(@Element1, "None"), FK_element2 = nullif(@Element2, "None");
--- abilities missing
 
 LOAD DATA LOCAL INFILE "C:/Users/hofmannfl/source/repos/DH-Studium/Sem4_Datenbanken/Aufgabenstellung/hero_random.csv"
 INTO TABLE hero
@@ -33,7 +32,6 @@ LINES TERMINATED BY '\r\n'
 IGNORE 2 LINES
 (@ID, @Name, @Level, @Element1, @Element2, @Health, @Abilities)
 SET PK_id = @ID, level = @Level, name = @Name, health = @Health, FK_element1 = nullif(@Element1, "None"), FK_element2 = nullif(@Element2, "None");
--- abilities missing
 
 
 # import cards data from "karten.csv"

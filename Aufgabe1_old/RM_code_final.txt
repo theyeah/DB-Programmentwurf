@@ -1,0 +1,93 @@
+// Use DBML to define your database structure
+// Docs: https://www.dbml.org/docs
+
+Table Encounter_Campaign {
+  PK_id varchar(50) [pk]
+  FK_hero varchar(50)
+  FK_deck varchar(50) [ref: > Deck.PK_id]
+  experience_first integer
+  gold_first integer
+  FK_card_reward1 integer [ref: > Cards.PK_id]
+  FK_card_reward2 integer [ref: > Cards.PK_id]
+}
+
+Table Encounter_Random {
+  PK_FK_id varchar(50) [pk, ref: - Encounter_Campaign.PK_id]
+  experience_again integer
+  gold_again integer
+  FK_condition varchar(50) [ref: - Encounter_Campaign.PK_id]
+}
+
+Table Hero {
+  PK_id varchar(50) [pk, ref: - Encounter_Campaign.FK_hero]
+  level integer
+  name  varchar (75)
+  health integer
+  FK_element1 varchar (75) [null, ref: - Elements.id_name]
+  FK_element2 varchar (75) [null, ref: - Elements.id_name]
+  //Verknüpfungen nullable -> nicht sichtbar in Diagramm
+}
+
+Table Abilities {
+  PK_id integer [pk, not null]
+  content varchar (255)
+}
+
+Table Hero_Abilities {
+  PK_FK_hero varchar(50) [pk, ref: < Hero.PK_id]
+  PK_FK_ability integer [pk, null, ref: < Abilities.PK_id]
+}
+
+Table Elements {
+  PK_id_char varchar (1) [pk]
+  id_name varchar (75) [unique]
+}
+
+Table Cards {
+  PK_id varchar(50) [pk]
+  name varchar (75)
+  rarity rarity //enum nicht sichtbar in Diagramm
+  type type_cards //enum nicht sichtbar in Diagramm
+  subtype type_cards //enum nicht sichtbar in Diagramm
+  FK_element integer [ref: - Elements.PK_id_char]
+  quick bool
+  cost integer
+}
+
+Table Card_Abilities {
+  PK_FK_card integer [pk, ref: < Cards.PK_id]
+  PK_FK_ability integer [pk, ref: < Abilities.PK_id]
+}
+
+Table cards_banned {
+  PK_FK_card varchar(50) [pk, ref: < Cards.PK_id]
+  Reason varchar(50)
+  BanningDate date
+}
+
+enum type_cards {
+  Action
+  Hero
+  Troop
+}
+
+enum rarity {
+  Common
+  Exceptional
+  Rare
+  Forbidden
+  Secret
+  Uncommon
+}
+
+Table Cards_Troop {
+  PK_id integer [pk, ref: < Cards.PK_id]
+  health integer
+}
+
+Table Deck {
+  PK_id varchar(50) [pk]
+  // entfernt, weil keine dauerhafte Zuordnung nötig, nur für einzelne Encounter: PK_FK_hero varchar(50) [pk,ref: - Hero.PK_id]
+  PK_FK_card integer [pk, ref: - Cards.PK_id] //geändert: n-n -> 1-1
+  amount integer
+}
